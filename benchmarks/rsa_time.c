@@ -2,6 +2,8 @@
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
+#include <iostream>
+#include <chrono>
 
 void decimal_to_binary(int op1, int aOp[]){
     int result, i = 0;
@@ -16,28 +18,33 @@ void decimal_to_binary(int op1, int aOp[]){
 int modular_exponentiation(int a, int b, int n){
  int *bb;
  int count = 0, d = 1, i;
- double delta_us;
- clock_t start, end;
+ using namespace std::chrono;
  // find out the size of binary b
  count = (int) (log(b)/log(2)) + 1;
 
- bb = (int ) malloc(sizeof(int) * count);
+ bb = (int*) malloc(sizeof(int) * count);
  decimal_to_binary(b, bb);
 
+ high_resolution_clock::time_point t1, t2; // = high_resolution_clock::now(); 
+
  for (i = count - 1; i >= 0; i--) {
-  start = clock();
-  d = (d*d) % n;
-  if (bb[i] == 1) {
-   d = (d*a) % n;
-  }
- end = clock();
- delta_us = (((double)end - (double)start) / (double)CLOCKS_PER_SEC);
- printf("bit %d loop time %f\n", bb[i], delta_us);
+   if (bb[i] == 1) {
+     t1 = high_resolution_clock::now();
+     d = (d * a);
+     t2 = high_resolution_clock::now();
+   } else {
+     t1 = high_resolution_clock::now();
+     d = (d * d);
+     t2 = high_resolution_clock::now();
+   }
+   duration<double> time_span = duration_cast<duration<double>>(t2 - t1);
+   std::cout << "bb[i] = " << bb[i] << ", chrono: " << time_span.count() << "\n";
+   d %= n;
  }
  return d;
 }
 
 
 int main(){
-	int a = modular_exponentiation(123452,765435,93093587);
+	int a = modular_exponentiation(7654351, 65280, 93093587);
 }
