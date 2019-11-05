@@ -11,6 +11,9 @@
 
 #pragma intrinsic(__rdtscp)
 
+float STATS[2][1000];
+int COUNT = 0;
+
 // Use the preprocessor so we know definitively that these are placed inline
 #define RDTSC_START()            \
 	__asm__ volatile("CPUID\n\t" \
@@ -37,7 +40,6 @@ uint64_t elapsed(uint32_t start_hi, uint32_t start_lo,
 }
 
 void decimal_to_binary(long int op1, long int aOp[]){
-	printf("dectibinary.5\n");
     int i = 0;
     do {
         aOp[i++] = op1 % 2;
@@ -46,26 +48,22 @@ void decimal_to_binary(long int op1, long int aOp[]){
 }
 
 long int modular_exponentiation(long int a, long int b, long int n){
-	printf("HELLO5\n");
   long int *bb;
   long int count = 0, d = 1, i;
   uint32_t start_hi = 0, start_lo = 0, end_hi = 0, end_lo = 0;
   // find out the size of binary b
-  count = 32;
-  printf("HELLO5.25   count %ld\n", count);
+  count = 64;
 
   bb = (long int*) malloc(sizeof(long int) * count);
   decimal_to_binary(b, bb);
 
   long times[2][count];
-  printf("HELLO5.5\n");
   for (int i = 0; i < 2; ++i) {
   	for (int j = 0; j < count; ++j) {
 		times[i][j] = 0;
 	}
   }
 
-  printf("HELLO6\n");
   uint64_t s, e;
   unsigned null;
   for (i = count - 1; i >= 0; i--) {
@@ -76,10 +74,9 @@ long int modular_exponentiation(long int a, long int b, long int n){
     }
     RDTSC_STOP();
     uint64_t e = elapsed(start_hi, start_lo, end_hi, end_lo);
-    printf("%ld: %lu\n", bb[i], e);
+    //printf("%ld: %lu\n", bb[i], e);
     times[bb[i]][i] = e;
   }
-  printf("HELLO7\n");
 
   long total = 0;
   int bits = 0;
@@ -109,7 +106,9 @@ long int modular_exponentiation(long int a, long int b, long int n){
   }
   for (int j = 0; j < 2; ++j) {
   	printf("avg. timing for %d-bit: %f, std. dev: %f\n", j, avgs[j], sqrt(vars[j]));
+	STATS[j][COUNT] = avgs[j];
   }
+  COUNT++;
   return d;
 }
 
@@ -123,15 +122,68 @@ long int lcm(long int a, long int b){
 	return (a*b)/gcd(a, b);
 }
 
+
+// C function for extended Euclidean Algorithm
+long int gcdExtended(long int a, long int b, long int *x, long int *y)
+{
+  // Base Case
+  if (a == 0)
+  {
+	  *x = 0, *y = 1;
+	  return b;
+  }
+
+  long int x1, y1; // To store results of recursive call
+  long int gcd = gcdExtended(b%a, a, &x1, &y1);
+
+  // Update x and y using results of recursive
+  // call
+  *x = y1 - (b/a) * x1;
+  *y = x1;
+
+  return gcd;
+}
+// Function to find modulo inverse of a
+long int modInverse(long int a, long int m)
+{
+    long int x, y;
+    long int g = gcdExtended(a, m, &x, &y);
+    if (g != 1)
+        printf("Inverse doesn't exist");
+    else
+    {
+        // m is added to handle negative x
+        return (x%m + m) % m;
+    }
+}
+
+
+
 int main(){
 	long int a = modular_exponentiation(123452,765435,93093587);
 	long int primes[32] = {314606891, 334214459, 817504253, 838041641, 334214467,353868013, 838041647, 858599503, 353868019, 373587883, 858599509, 879190747, 373587911, 393342739, 879190841, 899809343, 393342743, 413158511, 899809363, 920419813, 413158523, 433024223, 920419823, 941083981, 433024253, 452930459, 941083987, 961748927, 452930477, 472882027, 961748941, 982451653};
-	for (int i = 0; i < 100; ++i){
+	for (int i = 0; i < 1000; ++i){
 		long int p = primes[rand() % 32];
 		long int q = primes[rand() % 32];
+		if(p == q){
+			printf("P == Q. problem. skipping iter\n");
+			continue;
+		}
 		long int m = rand();
-		long int e = lcm((p-1), (q-1));
-		printf("Our number: m = %ld, e = %ld, n = %ld\n", m, e, p*q);
-		long int a = modular_exponentiation(m, e, p * q);
+		long int lamda = lcm(p-1, q-1);
+		if (gcd(lamda, 65537) != 1){
+			printf("You fucked up");
+		}
+		long int d = modInverse(65537, lamda);
+		printf("Our number: m = %ld, d = %ld, n = %ld\n", m, d, p*q);
+		long int a = modular_exponentiation(m, d, p * q);
 	}
+
+	printf("\n\nPRINTING OVERALL STATS");
+	printf("\n\nAverage difference between 0 bit and 1 bit\n");
+	for (int i = 0; i < COUNT; ++i) {
+      printf("%f\n", STATS[1][i] - STATS[0][i]);
+    }
+
+
 }
