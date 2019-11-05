@@ -1,5 +1,5 @@
-; ModuleID = 'benchmarks/rsa.c'
-source_filename = "benchmarks/rsa.c"
+; ModuleID = 'rsa.c'
+source_filename = "rsa.c"
 target datalayout = "e-m:e-i64:64-f80:128-n8:16:32:64-S128"
 target triple = "x86_64-unknown-linux-gnu"
 
@@ -97,7 +97,7 @@ for.body:                                         ; preds = %for.cond
   %arrayidx = getelementptr inbounds i32, i32* %10, i64 %idxprom
   %12 = load i32, i32* %arrayidx, align 4
   %cmp7 = icmp eq i32 %12, 1
-  br i1 %cmp7, label %if.then, label %if.end
+  br i1 %cmp7, label %if.then, label %if.else
 
 if.then:                                          ; preds = %for.body
   %13 = load i32, i32* %d, align 4
@@ -108,18 +108,23 @@ if.then:                                          ; preds = %for.body
   store i32 %rem10, i32* %d, align 4
   br label %if.end
 
-if.end:                                           ; preds = %if.then, %for.body
+if.else:                                          ; preds = %for.body
+  %16 = load i32, i32* %d, align 4
+  store i32 %16, i32* %d, align 4
+  br label %if.end
+
+if.end:                                           ; preds = %if.else, %if.then
   br label %for.inc
 
 for.inc:                                          ; preds = %if.end
-  %16 = load i32, i32* %i, align 4
-  %dec = add nsw i32 %16, -1
+  %17 = load i32, i32* %i, align 4
+  %dec = add nsw i32 %17, -1
   store i32 %dec, i32* %i, align 4
   br label %for.cond
 
 for.end:                                          ; preds = %for.cond
-  %17 = load i32, i32* %d, align 4
-  ret i32 %17
+  %18 = load i32, i32* %d, align 4
+  ret i32 %18
 }
 
 ; Function Attrs: nounwind

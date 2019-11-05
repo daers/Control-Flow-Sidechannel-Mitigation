@@ -36,16 +36,8 @@ uint64_t elapsed(uint32_t start_hi, uint32_t start_lo,
 	return end - start;
 }
 
-
-void dec_to_bin(int n, int bin[]) {
-  int mask = (1 << 16);
-  while (mask) {
-      *bin++ = (mask & n) ? 1 : 0;
-      mask >>= 1;
-  }
-}
-
-void decimal_to_binary(int op1, int aOp[]){
+void decimal_to_binary(long int op1, long int aOp[]){
+	printf("dectibinary.5\n");
     int i = 0;
     do {
         aOp[i++] = op1 % 2;
@@ -53,36 +45,41 @@ void decimal_to_binary(int op1, int aOp[]){
     } while (op1);
 }
 
-int modular_exponentiation(int a, int b, int n){
-  int *bb;
-  int count = 0, d = 1, i;
+long int modular_exponentiation(long int a, long int b, long int n){
+	printf("HELLO5\n");
+  long int *bb;
+  long int count = 0, d = 1, i;
   uint32_t start_hi = 0, start_lo = 0, end_hi = 0, end_lo = 0;
   // find out the size of binary b
-  count = (int) (log(b)/log(2)) + 1;
+  count = 32;
+  printf("HELLO5.25   count %ld\n", count);
 
-  bb = (int*) malloc(sizeof(int) * count);
+  bb = (long int*) malloc(sizeof(long int) * count);
   decimal_to_binary(b, bb);
 
   long times[2][count];
+  printf("HELLO5.5\n");
   for (int i = 0; i < 2; ++i) {
   	for (int j = 0; j < count; ++j) {
 		times[i][j] = 0;
 	}
   }
 
+  printf("HELLO6\n");
   uint64_t s, e;
   unsigned null;
   for (i = count - 1; i >= 0; i--) {
     RDTSC_START();
-    d = (d * d) % n; 
+    d = (d * d) % n;
     if (bb[i]) {
       d = (d * a) % n;
-    } 
+    }
     RDTSC_STOP();
     uint64_t e = elapsed(start_hi, start_lo, end_hi, end_lo);
-    printf("%d: %lu\n", bb[i], e);
+    printf("%ld: %lu\n", bb[i], e);
     times[bb[i]][i] = e;
   }
+  printf("HELLO7\n");
 
   long total = 0;
   int bits = 0;
@@ -116,16 +113,25 @@ int modular_exponentiation(int a, int b, int n){
   return d;
 }
 
+long int gcd(long int a, long int b){
+	if (b == 0)
+      return a;
+   return gcd(b, a % b);
+}
+
+long int lcm(long int a, long int b){
+	return (a*b)/gcd(a, b);
+}
 
 int main(){
-	int arr[16];
-	int b = (1 << 10) - 1;
-	dec_to_bin(b, arr);
-	for (int i = 0; i < 16; ++i) {
-	    printf("%d ", arr[i]);
+	long int a = modular_exponentiation(123452,765435,93093587);
+	long int primes[32] = {314606891, 334214459, 817504253, 838041641, 334214467,353868013, 838041647, 858599503, 353868019, 373587883, 858599509, 879190747, 373587911, 393342739, 879190841, 899809343, 393342743, 413158511, 899809363, 920419813, 413158523, 433024223, 920419823, 941083981, 433024253, 452930459, 941083987, 961748927, 452930477, 472882027, 961748941, 982451653};
+	for (int i = 0; i < 100; ++i){
+		long int p = primes[rand() % 32];
+		long int q = primes[rand() % 32];
+		long int m = rand();
+		long int e = lcm((p-1), (q-1));
+		printf("Our number: m = %ld, e = %ld, n = %ld\n", m, e, p*q);
+		long int a = modular_exponentiation(m, e, p * q);
 	}
-	printf("\n");
-	int a = modular_exponentiation(7654351, 261632, 93093587);
-	a = modular_exponentiation(987654351, 12345678, 93093587);
-
 }
