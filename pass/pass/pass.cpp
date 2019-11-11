@@ -31,39 +31,38 @@ using std::unordered_set; using std::unordered_map; using std::vector;
 using std::queue;
 
 namespace {
-    struct FPLICMCorrect : public LoopPass {
-      public:  
-	
+    struct CF_SEC : public LoopPass {
+      public:
+
 	static char ID;
-        FPLICMCorrect() : LoopPass(ID) {}
+        CF_SEC() : LoopPass(ID) {}
         virtual void getAnalysisUsage(AnalysisUsage &AU) const override;
         virtual bool runOnLoop(Loop *L, LPPassManager &LPM) override;
 
       private:
-    
+
     };
-    
-    void FPLICMCorrect::getAnalysisUsage(AnalysisUsage &AU) const {
-     
+
+    void CF_SEC::getAnalysisUsage(AnalysisUsage &AU) const {
+
     }
 
-    bool FPLICMCorrect::runOnLoop(Loop *L, LPPassManager &LPM) {
-    
+    bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
+
     }
 
 } // namespace
 
-char FPLICMCorrect::ID = 0;
+char CF_SEC::ID = 0;
 
-static RegisterPass<FPLICMCorrect> X("fplicm-correctness", "Frequent Loop Invariant Code Motion for correctness test");
+static RegisterPass<FPLICMCorrect> X("cf_sec", "Frequent Loop Invariant Code Motion for correctness test");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
                          legacy::PassManagerBase &PM) {
     PM.add(new BranchProbabilityInfoWrapperPass());
-    PM.add(new BlockFrequencyInfoWrapperPass());                        
-    PM.add(new FPLICMCorrect());
+    PM.add(new BlockFrequencyInfoWrapperPass());
+    PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
   RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
                  registerStatisticsPass);
-
