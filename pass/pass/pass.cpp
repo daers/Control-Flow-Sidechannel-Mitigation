@@ -55,7 +55,7 @@ namespace {
 
 char CF_SEC::ID = 0;
 
-static RegisterPass<FPLICMCorrect> X("cf_sec", "Frequent Loop Invariant Code Motion for correctness test");
+static RegisterPass<CF_SEC> X("cf_sec", "Frequent Loop Invariant Code Motion for correctness test");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
                          legacy::PassManagerBase &PM) {
