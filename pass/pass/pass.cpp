@@ -70,6 +70,7 @@ namespace {
 
     bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
         ControlDependentBlocks change = detectIfStatement(L);
+        return false;
     }
 
 } // namespace
