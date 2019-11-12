@@ -33,29 +33,24 @@ using std::queue;
 
 
 namespace {
-  struct ControlDependentBlocks{
-    ControlDependentBlocks(BasicBlock* taken_, BasicBlock* notTaken_): taken(taken_), notTaken(notTaken_){}
+    struct ControlDependentBlocks{
+        ControlDependentBlocks(BasicBlock* taken_, BasicBlock* notTaken_): taken(taken_), notTaken(notTaken_){}
 
-    BasicBlock* taken;
-    BasicBlock* notTaken;
-  };
+        BasicBlock* taken;
+        BasicBlock* notTaken;
+    };
 
-  ControlDependentBlocks detectIfStatement(Loop *L){
-    for(auto* bb: L->getBlocksVector()){
-      //find the BB with two predecessors
-      if (bb->hasNPredecessors(2) && bb != L->getHeader()){
-        ControlDependentBlocks found(*(pred_begin(bb)), *(++(pred_begin(bb))));
-        errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
-        return found;
-      }
-      //Check whether the two blocks 
-      if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
-        errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
-        return NULL;
-      }
+    ControlDependentBlocks detectIfStatement(Loop *L){
+        for(auto* bb: L->getBlocksVector()){
+            //find the BB with two predecessors
+            if (bb->hasNPredecessors(2) && bb != L->getHeader()){
+                ControlDependentBlocks found(*(pred_begin(bb)), *(++(pred_begin(bb))));
+                errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
+                return found;
+            }
+        }
+        return ControlDependentBlocks(nullptr, nullptr);
     }
-    return NULL;
-  }
 
   struct CF_SEC : public LoopPass {
   public:
