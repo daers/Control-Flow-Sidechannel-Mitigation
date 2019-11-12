@@ -42,10 +42,17 @@ namespace {
 
     ControlDependentBlocks detectIfStatement(Loop *L){
         for(auto* bb: L->getBlocksVector()){
-            //find the BB with two predecessors
             if (bb->hasNPredecessors(2) && bb != L->getHeader()){
+                //find the BB with two predecessors
                 ControlDependentBlocks found(*(pred_begin(bb)), *(++(pred_begin(bb))));
                 errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
+
+                //Check whether the two blocks
+                if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
+                  errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
+                  return ControlDependentBlocks(nullptr, nullptr);
+                }
+
                 return found;
             }
         }
@@ -77,11 +84,13 @@ namespace {
 
 char CF_SEC::ID = 0;
 
-static RegisterPass<CF_SEC> X("CF_SEC", "Control Flow Security Pass by Jakiegona");
+static RegisterPass<CF_SEC> X("cf_sec", "Control Flow Security Pass by Jakiegona");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
-                         legacy::PassManagerBase &PM) {
-    PM.add(new CF_SEC());
+ legacy::PassManagerBase &PM) {
+  PM.add(new BranchProbabilityInfoWrapperPass());
+  PM.add(new BlockFrequencyInfoWrapperPass());
+  PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
 RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
