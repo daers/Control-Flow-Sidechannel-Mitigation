@@ -42,21 +42,44 @@ namespace {
 
     ControlDependentBlocks detectIfStatement(Loop *L){
         for(auto* bb: L->getBlocksVector()){
+            //find the BB with two predecessors
             if (bb->hasNPredecessors(2) && bb != L->getHeader()){
-                //find the BB with two predecessors
-                ControlDependentBlocks found(*(pred_begin(bb)), *(++(pred_begin(bb))));
-                errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
-
-                //Check whether the two blocks
-                if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
-                  errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
-                  return ControlDependentBlocks(nullptr, nullptr);
+                BasicBlock* taken = *(pred_begin(bb));
+                BasicBlock* notTaken = *(++(pred_begin(bb)));
+                if (taken->getSinglePredecessor() == notTaken->getSinglePredecessor()){
+                    ControlDependentBlocks found(taken, notTaken);
+                    errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
+                    return found;
                 }
-
-                return found;
             }
         }
         return ControlDependentBlocks(nullptr, nullptr);
+    }
+
+    void hoistOut(Loop* L, Instruction &I, BasicBlock* preIf){
+        return;
+    }
+
+    bool hoistInstr(Loop* L, ControlDependentBlocks change){
+        //first, hoist the instructions in the first basic BLOCKS
+        BasicBlock* preIf = change.taken->getSinglePredecessor();
+
+        for(Instruction& I : change.taken->getInstList()){
+            if (I.getOpcode() != Instruction::Store){
+                hoistOut(L, I, preIf);
+            }
+            else{
+                break;
+            }
+        }
+        for(Instruction& I : change.notTaken->getInstList()){
+            if (I.getOpcode() != Instruction::Store){
+                hoistOut(L, I, preIf);
+            }
+            else{
+                break;
+            }
+        }
     }
 
   struct CF_SEC : public LoopPass {
@@ -77,6 +100,10 @@ namespace {
 
  bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
   ControlDependentBlocks change = detectIfStatement(L);
+  if (change.taken != nullptr){
+      //we have some bb's to change!
+      return hoistInstr(L, change);
+  }
   return false;
 }
 
@@ -84,10 +111,12 @@ namespace {
 
 char CF_SEC::ID = 0;
 
-static RegisterPass<CF_SEC> X("CF_SEC", "Control Flow Security Pass by Jakiegona");
+static RegisterPass<CF_SEC> X("cf_sec", "Control Flow Security Pass by Jakiegona");
 
-static void registerStatisticsPass(const PassManagerBuilder &, 
-  legacy::PassManagerBase &PM) {
+static void registerStatisticsPass(const PassManagerBuilder &,
+ legacy::PassManagerBase &PM) {
+  PM.add(new BranchProbabilityInfoWrapperPass());
+  PM.add(new BlockFrequencyInfoWrapperPass());
   PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
