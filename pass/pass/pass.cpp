@@ -49,7 +49,7 @@ namespace {
                 return found;
             }
         }
-        return NULL;
+        return ControlDependentBlocks(nullptr, nullptr);
     }
 
     struct CF_SEC : public LoopPass {

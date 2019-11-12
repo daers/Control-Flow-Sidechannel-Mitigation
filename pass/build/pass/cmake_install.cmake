@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakehage/Control-Flow-Sidechannel-Mitigation/pass/pass
+# Install script for directory: /home/cnoujaim/Control-Flow-Sidechannel-Mitigation/pass/pass
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCF_SECx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE MODULE FILES "/home/jakehage/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE MODULE FILES "/home/cnoujaim/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/CF_SEC.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/CF_SEC.so")
     if(CMAKE_INSTALL_DO_STRIP)
