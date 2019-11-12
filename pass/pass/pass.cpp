@@ -48,30 +48,35 @@ namespace {
                 errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
                 return found;
             }
+            //Check whether the two blocks 
+            if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
+              errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
+              return ControlDependentBlocks(nullptr, nullptr);
+            }
         }
         return ControlDependentBlocks(nullptr, nullptr);
     }
 
-    struct CF_SEC : public LoopPass {
-      public:
+  struct CF_SEC : public LoopPass {
+  public:
 
-	static char ID;
-        CF_SEC() : LoopPass(ID) {}
-        virtual void getAnalysisUsage(AnalysisUsage &AU) const override;
-        virtual bool runOnLoop(Loop *L, LPPassManager &LPM) override;
+   static char ID;
+   CF_SEC() : LoopPass(ID) {}
+   virtual void getAnalysisUsage(AnalysisUsage &AU) const override;
+   virtual bool runOnLoop(Loop *L, LPPassManager &LPM) override;
 
-      private:
+ private:
 
-    };
+ };
 
-    void CF_SEC::getAnalysisUsage(AnalysisUsage &AU) const {
+ void CF_SEC::getAnalysisUsage(AnalysisUsage &AU) const {
 
-    }
+ }
 
-    bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
-        ControlDependentBlocks change = detectIfStatement(L);
-        return false;
-    }
+ bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
+  ControlDependentBlocks change = detectIfStatement(L);
+  return false;
+}
 
 } // namespace
 
@@ -84,5 +89,5 @@ static void registerStatisticsPass(const PassManagerBuilder &,
     PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
-  RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
-                 registerStatisticsPass);
+RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
+ registerStatisticsPass);
