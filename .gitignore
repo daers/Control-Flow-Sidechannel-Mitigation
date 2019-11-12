@@ -1,2 +1,4 @@
 .DS_Store
 *.swp
+/pass/build/CMake*
+/pass/build/cmake*
