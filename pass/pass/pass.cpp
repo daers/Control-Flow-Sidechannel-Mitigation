@@ -49,7 +49,7 @@ namespace {
                 return found;
             }
         }
-        return NULL;
+        return ControlDependentBlocks(nullptr, nullptr);
     }
 
     struct CF_SEC : public LoopPass {
@@ -77,12 +77,10 @@ namespace {
 
 char CF_SEC::ID = 0;
 
-static RegisterPass<CF_SEC> X("cf_sec", "Control Flow Security Pass by Jakiegona");
+static RegisterPass<CF_SEC> X("CF_SEC", "Control Flow Security Pass by Jakiegona");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
                          legacy::PassManagerBase &PM) {
-    PM.add(new BranchProbabilityInfoWrapperPass());
-    PM.add(new BlockFrequencyInfoWrapperPass());
     PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
