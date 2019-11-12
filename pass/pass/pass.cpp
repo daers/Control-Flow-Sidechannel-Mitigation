@@ -57,6 +57,10 @@ namespace {
     }
 
     void hoistOut(Loop* L, Instruction &I, BasicBlock* preIf){
+        //make copy of instruction
+        //instert instruction before terminator
+        I.eraseFromParent();
+        I.insertBefore(preIf->getTerminator());
         return;
     }
 
