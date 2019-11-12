@@ -50,7 +50,8 @@ namespace {
       }
       //Check whether the two blocks 
       if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
-        errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR"
+        errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
+        return NULL;
       }
     }
     return NULL;
