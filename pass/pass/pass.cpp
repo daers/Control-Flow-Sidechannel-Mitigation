@@ -44,7 +44,7 @@ namespace {
         for(auto* bb: L->getBlocksVector()){
             //find the BB with two predecessors
             if (bb->hasNPredecessors(2) && bb != L->getHeader()){
-                ControlDependentBlocks found(*(bb->pred_begin()), *(++(bb->pred_begin())));
+                ControlDependentBlocks found(*(pred_begin(bb)), *(++(pred_begin(bb))));
                 errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
                 return found;
             }
