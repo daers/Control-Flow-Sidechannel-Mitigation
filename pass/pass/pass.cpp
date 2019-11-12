@@ -30,7 +30,28 @@ using namespace llvm;
 using std::unordered_set; using std::unordered_map; using std::vector;
 using std::queue;
 
+
+
 namespace {
+    struct ControlDependentBlocks{
+        ControlDependentBlocks(BasicBlock* taken_, BasicBlock* notTaken_): taken(taken_), notTaken(notTaken_){}
+
+        BasicBlock* taken;
+        BasicBlock* notTaken;
+    };
+
+    ControlDependentBlocks detectIfStatement(Loop *L){
+        for(auto* bb: L->getBlocksVector()){
+            //find the BB with two predecessors
+            if (bb->hasNPredecessors(2) && bb != L->getHeader()){
+                ControlDependentBlocks found(*(bb->pred_begin()), *(++(bb->pred_begin())));
+                errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
+                return found;
+            }
+        }
+        return NULL;
+    }
+
     struct CF_SEC : public LoopPass {
       public:
 
@@ -48,14 +69,14 @@ namespace {
     }
 
     bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
-
+        ControlDependentBlocks change = detectIfStatement(L);
     }
 
 } // namespace
 
 char CF_SEC::ID = 0;
 
-static RegisterPass<CF_SEC> X("cf_sec", "Frequent Loop Invariant Code Motion for correctness test");
+static RegisterPass<CF_SEC> X("cf_sec", "Control Flow Security Pass by Jakiegona");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
                          legacy::PassManagerBase &PM) {
