@@ -80,6 +80,7 @@ namespace {
                 break;
             }
         }
+	return true;
     }
 
   struct CF_SEC : public LoopPass {
