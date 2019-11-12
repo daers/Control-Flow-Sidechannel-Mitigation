@@ -1,32 +1,32 @@
 PATH2LIB=~/Control-Flow-Sidechannel-Mitigation/build/pass/CF_SEC.so        # Specify your build directory in the project
-PASS=-fplicm-CF_SEC                   # Choose either -fplicm-correctness or -fplicm-performance
+PASS=CF_SEC                   # Choose either -fplicm-correctness or -fplicm-performance
 
 # Delete outputs from previous run.
-rm -f default.profraw ${1}_prof ${1}_fplicm ${1}_no_fplicm *.bc ${1}.profdata *_output *.ll
+rm -f default.profraw CF_SEC_prof CF_SEC_fplicm CF_SEC_no_fplicm *.bc CF_SEC.profdata *_output *.ll
 
 # Convert source code to bitcode (IR)
-clang -emit-llvm -c ${1}.c -o ${1}.bc
+clang -emit-llvm -c pass/pass.cpp -o CF_SEC.bc
 # Canonicalize natural loops
-opt -loop-simplify ${1}.bc -o ${1}.ls.bc
+opt -loop-simplify CF_SEC.bc -o CF_SEC.ls.bc
 # Instrument profiler
-opt -pgo-instr-gen -instrprof ${1}.ls.bc -o ${1}.ls.prof.bc
+opt -pgo-instr-gen -instrprof CF_SEC.ls.bc -o CF_SEC.ls.prof.bc
 # Generate binary executable with profiler embedded
-clang -fprofile-instr-generate ${1}.ls.prof.bc -o ${1}_prof
+clang -fprofile-instr-generate CF_SEC.ls.prof.bc -o CF_SEC_prof
 
 # Generate profiled data
-./${1}_prof > correct_output
-llvm-profdata merge -o ${1}.profdata default.profraw
+./CF_SEC_prof > correct_output
+llvm-profdata merge -o CF_SEC.profdata default.profraw
 
 # Apply FPLICM
-opt -o ${1}.fplicm.bc -pgo-instr-use -pgo-test-profile-file=${1}.profdata -load ${PATH2LIB} ${PASS} < ${1}.ls.bc > /dev/null
+opt -o CF_SEC.fplicm.bc -pgo-instr-use -pgo-test-profile-file=CF_SEC.profdata -load ${PATH2LIB} ${PASS} < CF_SEC.ls.bc > /dev/null
 
 # Generate binary excutable before FPLICM: Unoptimzied code
-clang ${1}.ls.bc -o ${1}_no_fplicm
+clang CF_SEC.ls.bc -o CF_SEC_no_fplicm
 # Generate binary executable after FPLICM: Optimized code
-clang ${1}.fplicm.bc -o ${1}_fplicm
+clang CF_SEC.fplicm.bc -o CF_SEC_fplicm
 
 # Produce output from binary to check correctness
-./${1}_fplicm > fplicm_output
+./CF_SEC > CF_SEC_output
 
 echo -e "\n=== Correctness Check ==="
 if [ "$(diff correct_output fplicm_output)" != "" ]; then
@@ -35,12 +35,12 @@ else
     echo -e ">> PASS\n"
     # Measure performance
     echo -e "1. Performance of unoptimized code"
-    time ./${1}_no_fplicm > /dev/null
+    time ./CF_SEC_no_fplicm > /dev/null
     echo -e "\n\n"
     echo -e "2. Performance of optimized code"
-    time ./${1}_fplicm > /dev/null
+    time ./CF_SEC_fplicm > /dev/null
     echo -e "\n\n"
 fi
 
 # Cleanup
-rm -f default.profraw ${1}_prof ${1}_fplicm ${1}_no_fplicm *.bc ${1}.profdata *_output *.ll
+rm -f default.profraw CF_SEC_prof CF_SEC_fplicm CF_SEC_no_fplicm *.bc CF_SEC.profdata *_output *.ll
