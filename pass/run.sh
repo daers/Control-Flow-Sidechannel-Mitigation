@@ -9,16 +9,16 @@ clang -emit-llvm -c pass/pass.cpp -o CF_SEC.bc
 # Canonicalize natural loops
 opt -loop-simplify CF_SEC.bc -o CF_SEC.ls.bc
 # Instrument profiler
-opt -pgo-instr-gen -instrprof CF_SEC.ls.bc -o CF_SEC.ls.prof.bc
+# opt -pgo-instr-gen -instrprof CF_SEC.ls.bc -o CF_SEC.ls.prof.bc
 # Generate binary executable with profiler embedded
-clang -fprofile-instr-generate CF_SEC.ls.prof.bc -o CF_SEC_prof
+# clang -fprofile-instr-generate CF_SEC.ls.prof.bc -o CF_SEC_prof
 
 # Generate profiled data
-./CF_SEC_prof > correct_output
-llvm-profdata merge -o CF_SEC.profdata default.profraw
+#./CF_SEC_prof > correct_output
+#llvm-profdata merge -o CF_SEC.profdata default.profraw
 
 # Apply FPLICM
-opt -o CF_SEC.bc -pgo-instr-use -pgo-test-profile-file=CF_SEC.profdata -load ${PATH2LIB} ${PASS} < CF_SEC.ls.bc > /dev/null
+opt -o CF_SEC.bc -pgo-instr-use -load ${PATH2LIB} ${PASS} < CF_SEC.ls.bc > /dev/null
 
 # Generate binary executable after FPLICM: Optimized code
 clang CF_SEC.bc -o CF_SEC
