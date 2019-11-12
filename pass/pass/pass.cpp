@@ -52,26 +52,26 @@ namespace {
         return ControlDependentBlocks(nullptr, nullptr);
     }
 
-    struct CF_SEC : public LoopPass {
-      public:
+  struct CF_SEC : public LoopPass {
+  public:
 
-	static char ID;
-        CF_SEC() : LoopPass(ID) {}
-        virtual void getAnalysisUsage(AnalysisUsage &AU) const override;
-        virtual bool runOnLoop(Loop *L, LPPassManager &LPM) override;
+   static char ID;
+   CF_SEC() : LoopPass(ID) {}
+   virtual void getAnalysisUsage(AnalysisUsage &AU) const override;
+   virtual bool runOnLoop(Loop *L, LPPassManager &LPM) override;
 
-      private:
+ private:
 
-    };
+ };
 
-    void CF_SEC::getAnalysisUsage(AnalysisUsage &AU) const {
+ void CF_SEC::getAnalysisUsage(AnalysisUsage &AU) const {
 
-    }
+ }
 
-    bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
-        ControlDependentBlocks change = detectIfStatement(L);
-        return false;
-    }
+ bool CF_SEC::runOnLoop(Loop *L, LPPassManager &LPM) {
+  ControlDependentBlocks change = detectIfStatement(L);
+  return false;
+}
 
 } // namespace
 
@@ -80,11 +80,11 @@ char CF_SEC::ID = 0;
 static RegisterPass<CF_SEC> X("cf_sec", "Control Flow Security Pass by Jakiegona");
 
 static void registerStatisticsPass(const PassManagerBuilder &,
-                         legacy::PassManagerBase &PM) {
-    PM.add(new BranchProbabilityInfoWrapperPass());
-    PM.add(new BlockFrequencyInfoWrapperPass());
-    PM.add(new CF_SEC());
+ legacy::PassManagerBase &PM) {
+  PM.add(new BranchProbabilityInfoWrapperPass());
+  PM.add(new BlockFrequencyInfoWrapperPass());
+  PM.add(new CF_SEC());
 }
 static RegisterStandardPasses
-  RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
-                 registerStatisticsPass);
+RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
+ registerStatisticsPass);
