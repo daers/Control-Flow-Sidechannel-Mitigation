@@ -48,11 +48,6 @@ namespace {
                 errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
                 return found;
             }
-            //Check whether the two blocks 
-            if (*(pred_begin(found.taken)) != *(pred_begin(found.notTaken))){
-              errs() << "TAKEN AND NOT TAKEN HAVE DIFFERENT PREDECESSOR";
-              return ControlDependentBlocks(nullptr, nullptr);
-            }
         }
         return ControlDependentBlocks(nullptr, nullptr);
     }
