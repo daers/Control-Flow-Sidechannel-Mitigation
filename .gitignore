@@ -3,3 +3,4 @@
 *.o
 /pass/build/CMake*
 /pass/build/cmake*
+/pass/build/
