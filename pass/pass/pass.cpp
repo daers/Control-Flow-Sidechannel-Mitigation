@@ -59,28 +59,60 @@ namespace {
     void hoistOut(Loop* L, Instruction &I, BasicBlock* preIf){
         //make copy of instruction
         //instert instruction before terminator
+        auto* newInst = I.clone();
+
+        auto uses = I.uses();
+        for (auto use = uses.begin(); use != uses.end(); ++use){
+            use->set(newInst);
+            // errs() << **use << "\n";
+        }
+        newInst->insertBefore(preIf->getTerminator());
         I.eraseFromParent();
-        I.insertBefore(preIf->getTerminator());
         return;
     }
 
-    bool hoistInstr(Loop* L, ControlDependentBlocks change){
-        //first, hoist the instructions in the first basic BLOCKS
-        BasicBlock* preIf = change.taken->getSinglePredecessor();
-
-        for(Instruction& I : change.taken->getInstList()){
-            if (I.getOpcode() != Instruction::Store){
-                hoistOut(L, I, preIf);
-            } else {
-                break;
-            }
+    vector<Instruction*> createInstList(BasicBlock* bb){
+        vector<Instruction*> instlist;
+        for(Instruction& I : *bb){
+            instlist.push_back(&I);
         }
-        for(Instruction& I : change.notTaken->getInstList()){
-            if (I.getOpcode() != Instruction::Store){
-                hoistOut(L, I, preIf);
-            } else {
+        return instlist;
+    }
+
+    bool hoistInstr(Loop* L, ControlDependentBlocks& change){
+        //first, hoist the instructions in the first basic BLOCKS
+        errs() << *change.taken << "\n";
+        BasicBlock* preIf = change.taken->getSinglePredecessor();
+        errs() << "FUCK IT 1\n";
+
+
+        auto taken = createInstList(change.taken);
+        auto notTaken = createInstList(change.notTaken);
+
+        for(Instruction* I : taken){
+            errs() << I << " FUCK IT 2\n";
+            if (I->getOpcode() != Instruction::Store){
+                errs() << "FUCK IT 3\n";
+                hoistOut(L, *I, preIf);
+                errs() << "FUCK IT 4\n";
+            }
+            else{
                 break;
             }
+            errs() << "FUCK IT 5\n";
+        }
+
+        for(Instruction* I : notTaken){
+            errs() << I << " FUCK IT 2\n";
+            if (I->getOpcode() != Instruction::Store){
+                errs() << "FUCK IT 3\n";
+                hoistOut(L, *I, preIf);
+                errs() << "FUCK IT 4\n";
+            }
+            else{
+                break;
+            }
+            errs() << "FUCK IT 5\n";
         }
 	    return true;
     }
