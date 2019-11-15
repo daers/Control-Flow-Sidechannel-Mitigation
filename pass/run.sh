@@ -1,5 +1,5 @@
 PATH2LIB=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so        # Specify your build directory in the project
-PASS=-CF_SEC                   # Choose either -fplicm-correctness or -fplicm-performance
+PASS=-cf_sec                   # Choose either -fplicm-correctness or -fplicm-performance
 
 # Delete outputs from previous run.
 rm -f default.profraw CF_SEC_pass *.bc CF_SEC.profdata *_output *.ll
