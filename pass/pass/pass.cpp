@@ -71,16 +71,14 @@ namespace {
         for(Instruction& I : change.taken->getInstList()){
             if (I.getOpcode() != Instruction::Store){
                 hoistOut(L, I, preIf);
-            }
-            else{
+            } else {
                 break;
             }
         }
         for(Instruction& I : change.notTaken->getInstList()){
             if (I.getOpcode() != Instruction::Store){
                 hoistOut(L, I, preIf);
-            }
-            else{
+            } else {
                 break;
             }
         }
