@@ -92,12 +92,12 @@ int main(){
     ++countVals;
   }
 
-  fputs("%d\n", countVals);
+  fprintf(fileptr, "%d\n", countVals);
 
   for (int i = 0; i < countVals; ++i){
-    fputs("%ld\t%ld\t%ld\t%ld\n", values[0][i], values[1][i], values[2][i], values[3][i]);
+    fprintf(fileptr, "%ld\t%ld\t%ld\t%ld\n", values[0][i], values[1][i], values[2][i], values[3][i]);
   }
   
-  fclose(fp);
+  fclose(fileptr);
 
 }
