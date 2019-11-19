@@ -122,10 +122,10 @@ int main(){
 
 	for (int i = 0; i < 1000; ++i){
     // Read m, d, p, q from file
-		fscanf(fileptr, "%d", &d);
-    fscanf(fileptr, "%d", &m);
-    fscanf(fileptr, "%d", &p);
-		fscanf(fileptr, "%d", &q);
+		fscanf(fileptr, "%ld", &d);
+    fscanf(fileptr, "%ld", &m);
+    fscanf(fileptr, "%ld", &p);
+		fscanf(fileptr, "%ld", &q);
 
 		long int a = modular_exponentiation(m, d, p * q);
 	}
