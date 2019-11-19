@@ -78,37 +78,37 @@ long int modular_exponentiation(long int a, long int b, long int n){
     times[bb[i]][i] = e;
   }
 
-  long total = 0;
-  int bits = 0;
-  float avgs[2], vars[2];
-  for (int j = 0; j < 2; ++j) {
-    bits = 0, total = 0;
-    for (int i = 0; i < count; ++i) {
-  	  if (times[j][i]) {
-		  ++bits;
-	  	  total += times[j][i];
-	  }
-    }
-    float avg = (float)total / (float)bits;
-    avgs[j] = avg;
-  }
-  for (int j = 0; j < 2; ++j) {
-    vars[j] = 0;
-    bits = 0;
-    for (int i = 0; i < count; ++i) {
-  	  if (times[j][i]) {
-	  	float diff = (float)times[j][i] - avgs[j];
-		vars[j] += (diff * diff);
-	  	++bits;
-	  }
-    }
-    vars[j] /= (float)bits;
-  }
-  for (int j = 0; j < 2; ++j) {
-  	printf("avg. timing for %d-bit: %f, std. dev: %f\n", j, avgs[j], sqrt(vars[j]));
-	STATS[j][COUNT] = avgs[j];
-  }
-  COUNT++;
+ //  long total = 0;
+ //  int bits = 0;
+ //  float avgs[2], vars[2];
+ //  for (int j = 0; j < 2; ++j) {
+ //    bits = 0, total = 0;
+ //    for (int i = 0; i < count; ++i) {
+ //  	  if (times[j][i]) {
+	// 	  ++bits;
+	//   	  total += times[j][i];
+	//   }
+ //    }
+ //    float avg = (float)total / (float)bits;
+ //    avgs[j] = avg;
+ //  }
+ //  for (int j = 0; j < 2; ++j) {
+ //    vars[j] = 0;
+ //    bits = 0;
+ //    for (int i = 0; i < count; ++i) {
+ //  	  if (times[j][i]) {
+	//   	float diff = (float)times[j][i] - avgs[j];
+	// 	vars[j] += (diff * diff);
+	//   	++bits;
+	//   }
+ //    }
+ //    vars[j] /= (float)bits;
+ //  }
+ //  for (int j = 0; j < 2; ++j) {
+ //  	printf("avg. timing for %d-bit: %f, std. dev: %f\n", j, avgs[j], sqrt(vars[j]));
+	// STATS[j][COUNT] = avgs[j];
+ //  }
+ //  COUNT++;
   return d;
 }
 
@@ -130,11 +130,11 @@ int main(){
 		long int a = modular_exponentiation(m, d, p * q);
 	}
 
-	printf("\n\nPRINTING OVERALL STATS");
-	printf("\n\nAverage difference between 0 bit and 1 bit\n");
-	for (int i = 0; i < COUNT; ++i) {
-    printf("%f\n", STATS[1][i] - STATS[0][i]);
-  }
+	// printf("\n\nPRINTING OVERALL STATS");
+	// printf("\n\nAverage difference between 0 bit and 1 bit\n");
+	// for (int i = 0; i < COUNT; ++i) {
+ //    printf("%f\n", STATS[1][i] - STATS[0][i]);
+ //  }
 
   fclose(fileptr);
 }
