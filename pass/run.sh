@@ -37,7 +37,7 @@ cd ..
 
 PATH_MYPASS=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so  ### Action Required: Specify the path to your pass ###
 NAME_MYPASS=-cf_sec                            ### Action Required: Specify the name for your pass ###
-BENCH=${1}
+BENCH=../benchmarks/${1}
 
 
 # Convert source code to bitcode (IR)
