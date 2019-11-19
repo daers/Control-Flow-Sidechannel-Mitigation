@@ -8,11 +8,12 @@
 #include <stdint.h>
 #include <unistd.h>
 #include <x86intrin.h>
+#include "stats_counter.h"
+
 
 #pragma intrinsic(__rdtscp)
 
 float STATS[2][1000];
-int COUNT = 0;
 
 // Use the preprocessor so we know definitively that these are placed inline
 #define RDTSC_START()            \
@@ -49,20 +50,13 @@ void decimal_to_binary(long int op1, long int aOp[]){
 
 long int modular_exponentiation(long int a, long int b, long int n){
   long int *bb;
-  long int count = 0, d = 1, i;
+  long int count = 64, d = 1, i;
   uint32_t start_hi = 0, start_lo = 0, end_hi = 0, end_lo = 0;
-  // find out the size of binary b
-  count = 64;
+  // Declare and initialize a stats_counter object for bookeeping.
+  struct stats_counter sc; SC_init(&sc);
 
   bb = (long int*) malloc(sizeof(long int) * count);
   decimal_to_binary(b, bb);
-
-  long times[2][count];
-  for (int i = 0; i < 2; ++i) {
-  	for (int j = 0; j < count; ++j) {
-		times[i][j] = 0;
-	}
-  }
 
   uint64_t s, e;
   unsigned null;
@@ -75,8 +69,9 @@ long int modular_exponentiation(long int a, long int b, long int n){
     RDTSC_STOP();
     uint64_t e = elapsed(start_hi, start_lo, end_hi, end_lo);
     //printf("%ld: %lu\n", bb[i], e);
-    times[bb[i]][i] = e;
+    SC_addTick(&sc, bb[i], i, e);
   }
+  SC_calculateStats(&sc);
 
  //  long total = 0;
  //  int bits = 0;
