@@ -62,9 +62,12 @@ long int modular_exponentiation(long int a, long int b, long int n){
   unsigned null;
   for (i = count - 1; i >= 0; i--) {
     RDTSC_START();
-    d = (d * d) % n;
-    if (bb[i]) {
-      d = (d * a) % n;
+    d = (d*d) % n;
+    if (bb[i] == 1) {
+        d = (d*a) % n;
+    }
+    else {
+        d = d;
     }
     RDTSC_STOP();
     uint64_t e = elapsed(start_hi, start_lo, end_hi, end_lo);
