@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <assert.h>
 
 void SC_init(struct stats_counter* sc) {
 	for (int i = 0; i < 2; ++i) {

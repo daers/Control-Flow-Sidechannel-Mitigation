@@ -53,45 +53,47 @@ long int modular_exponentiation(long int a, long int b, long int n){
   long int count = 64, d = 1, i;
   uint32_t start_hi = 0, start_lo = 0, end_hi = 0, end_lo = 0;
   // Declare and initialize a stats_counter object for bookeeping.
-  struct stats_counter sc; SC_init(&sc);
+  // struct stats_counter sc; SC_init(&sc);
 
   bb = (long int*) malloc(sizeof(long int) * count);
   decimal_to_binary(b, bb);
 
-  uint64_t s, e;
-  unsigned null;
   for (i = count - 1; i >= 0; i--) {
+    d = (d * d) % n;
     RDTSC_START();
-    d = (d*d) % n;
     if (bb[i] == 1) {
-        d = (d*a) % n;
-    }
-    else {
+        d = (d * a) % n;
+    } else {
         d = d;
     }
     RDTSC_STOP();
     uint64_t e = elapsed(start_hi, start_lo, end_hi, end_lo);
     //printf("%ld: %lu\n", bb[i], e);
-    SC_addTick(&sc, bb[i], i, e);
+    printf("%ld\t%ld\t%lu\n", b, bb[i], e);
+    
+    // SC_addTick(&sc, bb[i], i, e);
   }
-  SC_calculateStats(&sc);
+  // SC_calculateStats(&sc);
   
   return d;
 }
 
 
 int main(){
-  FILE *fileptr;
   int tempChar;
-  fileptr = fopen("modexp_data.txt", "r");
+  FILE* fileptr = fopen("modexp_data.txt", "r");
+  if (!fileptr) {
+  	printf("Failed to open file. exiting with error.\n");
+	exit(1);
+  }
   long int d, m, p, q;
   // long int values[4][1000];
 
 	for (int i = 0; i < 1000; ++i){
     // Read m, d, p, q from file
 		fscanf(fileptr, "%ld", &d);
-    fscanf(fileptr, "%ld", &m);
-    fscanf(fileptr, "%ld", &p);
+    		fscanf(fileptr, "%ld", &m);
+    		fscanf(fileptr, "%ld", &p);
 		fscanf(fileptr, "%ld", &q);
 
 		long int a = modular_exponentiation(m, d, p * q);

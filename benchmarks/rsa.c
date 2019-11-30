@@ -18,7 +18,7 @@ int modular_exponentiation(int a, int b, int n){
  int count = 0, d = 1, i;
 
  // find out the size of binary b
- count = (int) (log(b)/log(2)) + 1;
+ count = 64;
 
  bb = (int *) malloc(sizeof(int*) * count);
  decimal_to_binary(b, bb);
@@ -38,4 +38,5 @@ int modular_exponentiation(int a, int b, int n){
 
 int main(){
 	int a = modular_exponentiation(123452,765435,93093587);
+	printf("a = %d\n", a);
 }

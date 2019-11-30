@@ -2,12 +2,13 @@
 #define STATS_COUNTER_H
 
 #include <stdint.h>
+#include <stdio.h>
 
 struct stats_counter {
 	long times[2][64];
        	long averages[2];
 	int averagesReady;
-	long stdDevs[2];	
+	long stdDevs[2];
 };
 
 void SC_init(struct stats_counter* sc);

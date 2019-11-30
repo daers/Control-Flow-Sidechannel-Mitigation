@@ -130,62 +130,62 @@ for.body:                                         ; preds = %for.cond
   %8 = load i64, i64* %n.addr, align 8
   %rem = srem i64 %mul1, %8
   store i64 %rem, i64* %d, align 8
-  %9 = call { i32, i32 } asm sideeffect "CPUID\0A\09RDTSC\0A\09mov %edx, $0\0A\09mov %eax, $1\0A\09", "=r,=r,~{rax},~{rbx},~{rcx},~{rdx},~{dirflag},~{fpsr},~{flags}"() #4, !srcloc !2
-  %asmresult = extractvalue { i32, i32 } %9, 0
-  %asmresult2 = extractvalue { i32, i32 } %9, 1
-  store i32 %asmresult, i32* %start_hi, align 4
-  store i32 %asmresult2, i32* %start_lo, align 4
-  %10 = load i64*, i64** %bb, align 8
-  %11 = load i64, i64* %i, align 8
-  %arrayidx = getelementptr inbounds i64, i64* %10, i64 %11
-  %12 = load i64, i64* %arrayidx, align 8
-  %cmp3 = icmp eq i64 %12, 1
+  %9 = load i64*, i64** %bb, align 8
+  %10 = load i64, i64* %i, align 8
+  %arrayidx = getelementptr inbounds i64, i64* %9, i64 %10
+  %11 = load i64, i64* %arrayidx, align 8
+  %cmp3 = icmp eq i64 %11, 1
+  %12 = load i64, i64* %d, align 8
   %13 = load i64, i64* %d, align 8
-  %14 = load i64, i64* %d, align 8
-  %15 = load i64, i64* %a.addr, align 8
-  %16 = mul nsw i64 %14, %15
-  %17 = load i64, i64* %n.addr, align 8
-  %18 = srem i64 %16, %17
+  %14 = load i64, i64* %a.addr, align 8
+  %15 = mul nsw i64 %13, %14
+  %16 = load i64, i64* %n.addr, align 8
+  %17 = srem i64 %15, %16
+  %18 = call { i32, i32 } asm sideeffect "CPUID\0A\09RDTSC\0A\09mov %edx, $0\0A\09mov %eax, $1\0A\09", "=r,=r,~{rax},~{rbx},~{rcx},~{rdx},~{dirflag},~{fpsr},~{flags}"() #4, !srcloc !2
+  %19 = extractvalue { i32, i32 } %18, 0
+  %20 = extractvalue { i32, i32 } %18, 1
+  store i32 %19, i32* %start_hi, align 4
+  store i32 %20, i32* %start_lo, align 4
   br i1 %cmp3, label %if.then, label %if.else
 
 if.then:                                          ; preds = %for.body
-  store i64 %18, i64* %d, align 8
+  store i64 %17, i64* %d, align 8
   br label %if.end
 
 if.else:                                          ; preds = %for.body
-  store i64 %13, i64* %d, align 8
+  store i64 %12, i64* %d, align 8
   br label %if.end
 
 if.end:                                           ; preds = %if.else, %if.then
-  %19 = call { i32, i32 } asm sideeffect "RDTSCP\0A\09mov %edx, $0\0A\09mov %eax, $1\0A\09CPUID\0A\09", "=r,=r,~{rax},~{rbx},~{rcx},~{rdx},~{dirflag},~{fpsr},~{flags}"() #4, !srcloc !3
-  %asmresult6 = extractvalue { i32, i32 } %19, 0
-  %asmresult7 = extractvalue { i32, i32 } %19, 1
+  %21 = call { i32, i32 } asm sideeffect "RDTSCP\0A\09mov %edx, $0\0A\09mov %eax, $1\0A\09CPUID\0A\09", "=r,=r,~{rax},~{rbx},~{rcx},~{rdx},~{dirflag},~{fpsr},~{flags}"() #4, !srcloc !3
+  %asmresult6 = extractvalue { i32, i32 } %21, 0
+  %asmresult7 = extractvalue { i32, i32 } %21, 1
   store i32 %asmresult6, i32* %end_hi, align 4
   store i32 %asmresult7, i32* %end_lo, align 4
-  %20 = load i32, i32* %start_hi, align 4
-  %21 = load i32, i32* %start_lo, align 4
-  %22 = load i32, i32* %end_hi, align 4
-  %23 = load i32, i32* %end_lo, align 4
-  %call8 = call i64 @elapsed(i32 %20, i32 %21, i32 %22, i32 %23)
+  %22 = load i32, i32* %start_hi, align 4
+  %23 = load i32, i32* %start_lo, align 4
+  %24 = load i32, i32* %end_hi, align 4
+  %25 = load i32, i32* %end_lo, align 4
+  %call8 = call i64 @elapsed(i32 %22, i32 %23, i32 %24, i32 %25)
   store i64 %call8, i64* %e, align 8
-  %24 = load i64, i64* %b.addr, align 8
-  %25 = load i64*, i64** %bb, align 8
-  %26 = load i64, i64* %i, align 8
-  %arrayidx9 = getelementptr inbounds i64, i64* %25, i64 %26
-  %27 = load i64, i64* %arrayidx9, align 8
-  %28 = load i64, i64* %e, align 8
-  %call10 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str, i32 0, i32 0), i64 %24, i64 %27, i64 %28)
+  %26 = load i64, i64* %b.addr, align 8
+  %27 = load i64*, i64** %bb, align 8
+  %28 = load i64, i64* %i, align 8
+  %arrayidx9 = getelementptr inbounds i64, i64* %27, i64 %28
+  %29 = load i64, i64* %arrayidx9, align 8
+  %30 = load i64, i64* %e, align 8
+  %call10 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str, i32 0, i32 0), i64 %26, i64 %29, i64 %30)
   br label %for.inc
 
 for.inc:                                          ; preds = %if.end
-  %29 = load i64, i64* %i, align 8
-  %dec = add nsw i64 %29, -1
+  %31 = load i64, i64* %i, align 8
+  %dec = add nsw i64 %31, -1
   store i64 %dec, i64* %i, align 8
   br label %for.cond
 
 for.end:                                          ; preds = %for.cond
-  %30 = load i64, i64* %d, align 8
-  ret i64 %30
+  %32 = load i64, i64* %d, align 8
+  ret i64 %32
 }
 
 ; Function Attrs: nounwind

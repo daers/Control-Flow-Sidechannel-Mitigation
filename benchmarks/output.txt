@@ -1,0 +1,4000 @@
+	0	1
+Avgs.:	99	156
+Std.:	13	18
+Devs.
+	0	1
+Avgs.:	105	159
+Std.:	38	14
+Devs.
+	0	1
+Avgs.:	97	160
+Std.:	13	12
+Devs.
+	0	1
+Avgs.:	97	163
+Std.:	13	19
+Devs.
+	0	1
+Avgs.:	91	2765
+Std.:	12	10456
+Devs.
+	0	1
+Avgs.:	92	173
+Std.:	16	56
+Devs.
+	0	1
+Avgs.:	102	157
+Std.:	45	17
+Devs.
+	0	1
+Avgs.:	97	159
+Std.:	38	17
+Devs.
+	0	1
+Avgs.:	92	149
+Std.:	16	26
+Devs.
+	0	1
+Avgs.:	92	149
+Std.:	16	9
+Devs.
+	0	1
+Avgs.:	96	155
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	94	156
+Std.:	19	10
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	89	150
+Std.:	30	20
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	20	13
+Devs.
+	0	1
+Avgs.:	96	161
+Std.:	30	53
+Devs.
+	0	1
+Avgs.:	101	151
+Std.:	41	15
+Devs.
+	0	1
+Avgs.:	98	159
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	92	153
+Std.:	18	24
+Devs.
+	0	1
+Avgs.:	88	155
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	99	155
+Std.:	15	25
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	32	16
+Devs.
+	0	1
+Avgs.:	89	175
+Std.:	18	60
+Devs.
+	0	1
+Avgs.:	89	142
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	87	160
+Std.:	15	50
+Devs.
+	0	1
+Avgs.:	88	157
+Std.:	19	11
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	16	12
+Devs.
+	0	1
+Avgs.:	90	167
+Std.:	16	54
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	97	146
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	101	143
+Std.:	32	16
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	19	18
+Devs.
+	0	1
+Avgs.:	100	143
+Std.:	18	12
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	98	162
+Std.:	16	52
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	98	172
+Std.:	14	8
+Devs.
+	0	1
+Avgs.:	102	161
+Std.:	35	22
+Devs.
+	0	1
+Avgs.:	95	155
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	97	167
+Std.:	17	46
+Devs.
+	0	1
+Avgs.:	98	157
+Std.:	28	20
+Devs.
+	0	1
+Avgs.:	100	146
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	99	148
+Std.:	19	23
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	20	21
+Devs.
+	0	1
+Avgs.:	94	148
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	97	153
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	94	143
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	96	143
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	100	147
+Std.:	40	15
+Devs.
+	0	1
+Avgs.:	93	147
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	97	166
+Std.:	34	57
+Devs.
+	0	1
+Avgs.:	96	160
+Std.:	31	14
+Devs.
+	0	1
+Avgs.:	90	172
+Std.:	14	60
+Devs.
+	0	1
+Avgs.:	99	151
+Std.:	41	19
+Devs.
+	0	1
+Avgs.:	93	159
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	95	163
+Std.:	44	43
+Devs.
+	0	1
+Avgs.:	91	142
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	96	156
+Std.:	17	27
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	15	14
+Devs.
+	0	1
+Avgs.:	97	156
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	90	155
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	94	166
+Std.:	16	43
+Devs.
+	0	1
+Avgs.:	93	151
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	92	148
+Std.:	14	13
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	91	143
+Std.:	19	12
+Devs.
+	0	1
+Avgs.:	89	146
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	86	151
+Std.:	19	28
+Devs.
+	0	1
+Avgs.:	94	153
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	94	160
+Std.:	20	48
+Devs.
+	0	1
+Avgs.:	95	158
+Std.:	17	25
+Devs.
+	0	1
+Avgs.:	90	145
+Std.:	15	9
+Devs.
+	0	1
+Avgs.:	99	158
+Std.:	39	21
+Devs.
+	0	1
+Avgs.:	97	152
+Std.:	33	12
+Devs.
+	0	1
+Avgs.:	92	144
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	96	144
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	98	153
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	99	169
+Std.:	31	49
+Devs.
+	0	1
+Avgs.:	99	164
+Std.:	29	16
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	98	150
+Std.:	32	14
+Devs.
+	0	1
+Avgs.:	94	157
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	97	163
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	92	153
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	96	156
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	97	162
+Std.:	18	41
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	95	155
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	93	167
+Std.:	15	50
+Devs.
+	0	1
+Avgs.:	99	164
+Std.:	30	21
+Devs.
+	0	1
+Avgs.:	99	146
+Std.:	35	14
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	91	145
+Std.:	13	12
+Devs.
+	0	1
+Avgs.:	91	145
+Std.:	18	12
+Devs.
+	0	1
+Avgs.:	98	150
+Std.:	29	18
+Devs.
+	0	1
+Avgs.:	91	152
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	92	158
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	92	149
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	93	156
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	90	153
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	90	161
+Std.:	14	58
+Devs.
+	0	1
+Avgs.:	94	150
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	17	10
+Devs.
+	0	1
+Avgs.:	90	144
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	98	151
+Std.:	13	16
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	19	25
+Devs.
+	0	1
+Avgs.:	92	153
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	97	159
+Std.:	18	25
+Devs.
+	0	1
+Avgs.:	93	140
+Std.:	16	24
+Devs.
+	0	1
+Avgs.:	97	141
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	89	151
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	92	158
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	90	149
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	91	146
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	16	25
+Devs.
+	0	1
+Avgs.:	91	141
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	93	157
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	82	146
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	14	27
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	21	17
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	99	153
+Std.:	18	20
+Devs.
+	0	1
+Avgs.:	97	150
+Std.:	31	22
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	15	23
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	17	23
+Devs.
+	0	1
+Avgs.:	96	155
+Std.:	16	60
+Devs.
+	0	1
+Avgs.:	92	145
+Std.:	14	20
+Devs.
+	0	1
+Avgs.:	95	143
+Std.:	14	15
+Devs.
+	0	1
+Avgs.:	98	155
+Std.:	28	14
+Devs.
+	0	1
+Avgs.:	101	153
+Std.:	33	17
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	92	160
+Std.:	14	22
+Devs.
+	0	1
+Avgs.:	100	145
+Std.:	14	30
+Devs.
+	0	1
+Avgs.:	105	157
+Std.:	42	50
+Devs.
+	0	1
+Avgs.:	96	159
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	92	152
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	17	10
+Devs.
+	0	1
+Avgs.:	95	164
+Std.:	16	47
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	94	157
+Std.:	13	13
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	87	148
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	90	157
+Std.:	15	50
+Devs.
+	0	1
+Avgs.:	89	140
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	17	11
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	97	167
+Std.:	31	49
+Devs.
+	0	1
+Avgs.:	88	148
+Std.:	19	18
+Devs.
+	0	1
+Avgs.:	87	169
+Std.:	16	62
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	31	11
+Devs.
+	0	1
+Avgs.:	90	153
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	90	155
+Std.:	17	46
+Devs.
+	0	1
+Avgs.:	96	149
+Std.:	29	13
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	16	25
+Devs.
+	0	1
+Avgs.:	90	151
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	15	22
+Devs.
+	0	1
+Avgs.:	97	150
+Std.:	44	14
+Devs.
+	0	1
+Avgs.:	88	142
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	17	12
+Devs.
+	0	1
+Avgs.:	96	143
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	93	146
+Std.:	18	22
+Devs.
+	0	1
+Avgs.:	98	156
+Std.:	14	20
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	33	19
+Devs.
+	0	1
+Avgs.:	94	144
+Std.:	18	15
+Devs.
+	0	1
+Avgs.:	92	148
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	91	135
+Std.:	31	13
+Devs.
+	0	1
+Avgs.:	96	142
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	14	13
+Devs.
+	0	1
+Avgs.:	100	143
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	16	24
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	89	156
+Std.:	17	52
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	18	22
+Devs.
+	0	1
+Avgs.:	101	154
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	99	151
+Std.:	38	13
+Devs.
+	0	1
+Avgs.:	98	159
+Std.:	29	20
+Devs.
+	0	1
+Avgs.:	99	151
+Std.:	13	15
+Devs.
+	0	1
+Avgs.:	99	160
+Std.:	12	18
+Devs.
+	0	1
+Avgs.:	100	164
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	30	23
+Devs.
+	0	1
+Avgs.:	96	144
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	97	152
+Std.:	30	14
+Devs.
+	0	1
+Avgs.:	97	156
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	16	22
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	92	164
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	91	156
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	102	146
+Std.:	41	12
+Devs.
+	0	1
+Avgs.:	90	150
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	97	150
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	94	142
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	93	143
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	94	181
+Std.:	31	72
+Devs.
+	0	1
+Avgs.:	92	140
+Std.:	14	14
+Devs.
+	0	1
+Avgs.:	91	143
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	96	161
+Std.:	31	51
+Devs.
+	0	1
+Avgs.:	91	147
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	98	156
+Std.:	17	48
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	91	149
+Std.:	19	18
+Devs.
+	0	1
+Avgs.:	89	148
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	97	155
+Std.:	16	27
+Devs.
+	0	1
+Avgs.:	89	142
+Std.:	18	12
+Devs.
+	0	1
+Avgs.:	93	148
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	97	144
+Std.:	18	22
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	91	146
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	33	14
+Devs.
+	0	1
+Avgs.:	89	155
+Std.:	14	12
+Devs.
+	0	1
+Avgs.:	90	154
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	99	150
+Std.:	33	16
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	93	146
+Std.:	29	14
+Devs.
+	0	1
+Avgs.:	89	158
+Std.:	19	20
+Devs.
+	0	1
+Avgs.:	91	166
+Std.:	13	56
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	89	152
+Std.:	14	49
+Devs.
+	0	1
+Avgs.:	88	151
+Std.:	22	12
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	98	148
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	89	144
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	99	153
+Std.:	31	20
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	104	146
+Std.:	37	15
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	14	18
+Devs.
+	0	1
+Avgs.:	97	156
+Std.:	31	20
+Devs.
+	0	1
+Avgs.:	98	168
+Std.:	17	52
+Devs.
+	0	1
+Avgs.:	101	153
+Std.:	30	12
+Devs.
+	0	1
+Avgs.:	92	154
+Std.:	14	14
+Devs.
+	0	1
+Avgs.:	94	164
+Std.:	14	46
+Devs.
+	0	1
+Avgs.:	92	158
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	97	159
+Std.:	13	16
+Devs.
+	0	1
+Avgs.:	102	149
+Std.:	42	21
+Devs.
+	0	1
+Avgs.:	93	172
+Std.:	16	50
+Devs.
+	0	1
+Avgs.:	90	149
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	99	152
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	97	161
+Std.:	31	21
+Devs.
+	0	1
+Avgs.:	102	160
+Std.:	32	23
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	16	9
+Devs.
+	0	1
+Avgs.:	99	151
+Std.:	34	19
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	94	153
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	95	170
+Std.:	17	49
+Devs.
+	0	1
+Avgs.:	100	162
+Std.:	15	11
+Devs.
+	0	1
+Avgs.:	95	146
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	94	144
+Std.:	14	10
+Devs.
+	0	1
+Avgs.:	93	169
+Std.:	14	58
+Devs.
+	0	1
+Avgs.:	90	155
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	90	153
+Std.:	14	15
+Devs.
+	0	1
+Avgs.:	87	144
+Std.:	16	10
+Devs.
+	0	1
+Avgs.:	96	164
+Std.:	38	50
+Devs.
+	0	1
+Avgs.:	93	155
+Std.:	35	17
+Devs.
+	0	1
+Avgs.:	95	187
+Std.:	42	67
+Devs.
+	0	1
+Avgs.:	91	147
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	97	152
+Std.:	35	20
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	31	17
+Devs.
+	0	1
+Avgs.:	87	150
+Std.:	16	22
+Devs.
+	0	1
+Avgs.:	91	152
+Std.:	32	22
+Devs.
+	0	1
+Avgs.:	94	158
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	88	145
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	93	163
+Std.:	31	42
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	17	23
+Devs.
+	0	1
+Avgs.:	91	148
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	92	160
+Std.:	19	24
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	14	22
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	88	149
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	98	146
+Std.:	15	14
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	97	141
+Std.:	42	40
+Devs.
+	0	1
+Avgs.:	92	146
+Std.:	14	20
+Devs.
+	0	1
+Avgs.:	101	145
+Std.:	33	22
+Devs.
+	0	1
+Avgs.:	92	158
+Std.:	14	47
+Devs.
+	0	1
+Avgs.:	93	167
+Std.:	17	62
+Devs.
+	0	1
+Avgs.:	90	143
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	91	149
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	99	150
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	99	164
+Std.:	30	58
+Devs.
+	0	1
+Avgs.:	94	156
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	90	152
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	14	21
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	96	156
+Std.:	31	20
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	103	149
+Std.:	34	19
+Devs.
+	0	1
+Avgs.:	93	148
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	95	142
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	95	159
+Std.:	16	51
+Devs.
+	0	1
+Avgs.:	97	149
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	102	159
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	17	26
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	29	18
+Devs.
+	0	1
+Avgs.:	103	149
+Std.:	30	21
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	14	23
+Devs.
+	0	1
+Avgs.:	96	169
+Std.:	18	47
+Devs.
+	0	1
+Avgs.:	95	155
+Std.:	13	21
+Devs.
+	0	1
+Avgs.:	96	162
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	97	144
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	95	158
+Std.:	17	52
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	31	11
+Devs.
+	0	1
+Avgs.:	91	174
+Std.:	16	70
+Devs.
+	0	1
+Avgs.:	90	171
+Std.:	18	58
+Devs.
+	0	1
+Avgs.:	92	134
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	31	14
+Devs.
+	0	1
+Avgs.:	93	148
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	39	8
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	91	154
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	87	140
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	92	141
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	91	148
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	97	157
+Std.:	30	10
+Devs.
+	0	1
+Avgs.:	94	154
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	88	145
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	98	157
+Std.:	32	4
+Devs.
+	0	1
+Avgs.:	87	154
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	94	167
+Std.:	32	19
+Devs.
+	0	1
+Avgs.:	96	161
+Std.:	18	46
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	15	23
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	14	18
+Devs.
+	0	1
+Avgs.:	89	156
+Std.:	15	22
+Devs.
+	0	1
+Avgs.:	93	147
+Std.:	13	15
+Devs.
+	0	1
+Avgs.:	92	147
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	89	148
+Std.:	29	12
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	93	196
+Std.:	16	78
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	20	22
+Devs.
+	0	1
+Avgs.:	94	147
+Std.:	31	12
+Devs.
+	0	1
+Avgs.:	92	167
+Std.:	16	51
+Devs.
+	0	1
+Avgs.:	91	148
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	95	163
+Std.:	15	55
+Devs.
+	0	1
+Avgs.:	100	165
+Std.:	30	42
+Devs.
+	0	1
+Avgs.:	92	142
+Std.:	13	12
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	96	164
+Std.:	30	53
+Devs.
+	0	1
+Avgs.:	94	164
+Std.:	13	58
+Devs.
+	0	1
+Avgs.:	96	147
+Std.:	15	24
+Devs.
+	0	1
+Avgs.:	97	166
+Std.:	15	46
+Devs.
+	0	1
+Avgs.:	103	148
+Std.:	47	16
+Devs.
+	0	1
+Avgs.:	97	162
+Std.:	16	50
+Devs.
+	0	1
+Avgs.:	95	146
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	29	22
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	94	150
+Std.:	18	25
+Devs.
+	0	1
+Avgs.:	95	160
+Std.:	18	43
+Devs.
+	0	1
+Avgs.:	94	160
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	96	157
+Std.:	16	10
+Devs.
+	0	1
+Avgs.:	91	146
+Std.:	14	23
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	98	156
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	93	155
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	97	151
+Std.:	33	16
+Devs.
+	0	1
+Avgs.:	99	150
+Std.:	33	16
+Devs.
+	0	1
+Avgs.:	102	158
+Std.:	12	19
+Devs.
+	0	1
+Avgs.:	99	155
+Std.:	17	48
+Devs.
+	0	1
+Avgs.:	96	160
+Std.:	39	23
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	17	11
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	42	17
+Devs.
+	0	1
+Avgs.:	92	152
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	35	19
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	33	20
+Devs.
+	0	1
+Avgs.:	92	157
+Std.:	17	48
+Devs.
+	0	1
+Avgs.:	83	162
+Std.:	15	49
+Devs.
+	0	1
+Avgs.:	91	149
+Std.:	19	20
+Devs.
+	0	1
+Avgs.:	91	150
+Std.:	32	14
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	12	16
+Devs.
+	0	1
+Avgs.:	96	157
+Std.:	40	48
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	18	20
+Devs.
+	0	1
+Avgs.:	91	143
+Std.:	35	20
+Devs.
+	0	1
+Avgs.:	87	153
+Std.:	14	14
+Devs.
+	0	1
+Avgs.:	91	174
+Std.:	18	80
+Devs.
+	0	1
+Avgs.:	98	142
+Std.:	28	15
+Devs.
+	0	1
+Avgs.:	92	137
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	31	13
+Devs.
+	0	1
+Avgs.:	90	155
+Std.:	16	12
+Devs.
+	0	1
+Avgs.:	101	151
+Std.:	39	20
+Devs.
+	0	1
+Avgs.:	92	147
+Std.:	14	15
+Devs.
+	0	1
+Avgs.:	96	150
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	100	151
+Std.:	28	20
+Devs.
+	0	1
+Avgs.:	91	152
+Std.:	17	65
+Devs.
+	0	1
+Avgs.:	87	153
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	89	143
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	93	160
+Std.:	17	49
+Devs.
+	0	1
+Avgs.:	88	153
+Std.:	32	22
+Devs.
+	0	1
+Avgs.:	93	147
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	97	160
+Std.:	32	46
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	90	147
+Std.:	15	11
+Devs.
+	0	1
+Avgs.:	94	153
+Std.:	33	21
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	101	175
+Std.:	29	49
+Devs.
+	0	1
+Avgs.:	97	171
+Std.:	15	59
+Devs.
+	0	1
+Avgs.:	103	160
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	91	157
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	97	170
+Std.:	35	59
+Devs.
+	0	1
+Avgs.:	96	164
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	99	155
+Std.:	29	16
+Devs.
+	0	1
+Avgs.:	92	147
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	98	166
+Std.:	16	43
+Devs.
+	0	1
+Avgs.:	98	151
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	99	153
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	97	153
+Std.:	34	13
+Devs.
+	0	1
+Avgs.:	92	147
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	97	160
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	93	156
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	97	174
+Std.:	15	55
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	15	14
+Devs.
+	0	1
+Avgs.:	97	158
+Std.:	29	18
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	14	18
+Devs.
+	0	1
+Avgs.:	91	161
+Std.:	17	9
+Devs.
+	0	1
+Avgs.:	93	146
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	18	47
+Devs.
+	0	1
+Avgs.:	95	141
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	33	15
+Devs.
+	0	1
+Avgs.:	92	153
+Std.:	32	11
+Devs.
+	0	1
+Avgs.:	94	147
+Std.:	29	16
+Devs.
+	0	1
+Avgs.:	96	161
+Std.:	31	51
+Devs.
+	0	1
+Avgs.:	91	149
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	17	48
+Devs.
+	0	1
+Avgs.:	90	151
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	94	141
+Std.:	32	11
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	31	16
+Devs.
+	0	1
+Avgs.:	93	155
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	92	156
+Std.:	29	15
+Devs.
+	0	1
+Avgs.:	91	159
+Std.:	16	51
+Devs.
+	0	1
+Avgs.:	86	146
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	91	176
+Std.:	15	50
+Devs.
+	0	1
+Avgs.:	93	161
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	28	17
+Devs.
+	0	1
+Avgs.:	88	164
+Std.:	14	55
+Devs.
+	0	1
+Avgs.:	88	157
+Std.:	19	16
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	18	15
+Devs.
+	0	1
+Avgs.:	89	157
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	93	160
+Std.:	26	22
+Devs.
+	0	1
+Avgs.:	96	161
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	91	146
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	98	153
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	32	24
+Devs.
+	0	1
+Avgs.:	89	136
+Std.:	17	12
+Devs.
+	0	1
+Avgs.:	94	167
+Std.:	18	54
+Devs.
+	0	1
+Avgs.:	99	144
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	92	154
+Std.:	13	20
+Devs.
+	0	1
+Avgs.:	97	151
+Std.:	29	21
+Devs.
+	0	1
+Avgs.:	91	151
+Std.:	33	18
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	98	161
+Std.:	31	49
+Devs.
+	0	1
+Avgs.:	97	162
+Std.:	34	50
+Devs.
+	0	1
+Avgs.:	94	143
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	92	145
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	97	155
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	99	148
+Std.:	37	13
+Devs.
+	0	1
+Avgs.:	105	153
+Std.:	38	16
+Devs.
+	0	1
+Avgs.:	96	147
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	92	142
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	98	150
+Std.:	29	19
+Devs.
+	0	1
+Avgs.:	100	144
+Std.:	29	16
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	97	155
+Std.:	16	22
+Devs.
+	0	1
+Avgs.:	100	144
+Std.:	29	14
+Devs.
+	0	1
+Avgs.:	104	155
+Std.:	41	25
+Devs.
+	0	1
+Avgs.:	90	153
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	89	146
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	90	170
+Std.:	15	65
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	98	154
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	94	163
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	15	22
+Devs.
+	0	1
+Avgs.:	96	147
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	100	155
+Std.:	31	13
+Devs.
+	0	1
+Avgs.:	102	177
+Std.:	38	62
+Devs.
+	0	1
+Avgs.:	97	144
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	96	162
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	86	147
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	110	159
+Std.:	54	49
+Devs.
+	0	1
+Avgs.:	97	170
+Std.:	36	74
+Devs.
+	0	1
+Avgs.:	98	155
+Std.:	31	16
+Devs.
+	0	1
+Avgs.:	94	157
+Std.:	14	51
+Devs.
+	0	1
+Avgs.:	97	157
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	101	194
+Std.:	45	78
+Devs.
+	0	1
+Avgs.:	89	156
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	91	166
+Std.:	18	49
+Devs.
+	0	1
+Avgs.:	92	145
+Std.:	29	15
+Devs.
+	0	1
+Avgs.:	94	164
+Std.:	15	46
+Devs.
+	0	1
+Avgs.:	87	171
+Std.:	12	44
+Devs.
+	0	1
+Avgs.:	91	164
+Std.:	14	61
+Devs.
+	0	1
+Avgs.:	87	145
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	92	167
+Std.:	18	54
+Devs.
+	0	1
+Avgs.:	93	162
+Std.:	18	50
+Devs.
+	0	1
+Avgs.:	92	156
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	92	144
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	97	170
+Std.:	32	47
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	32	14
+Devs.
+	0	1
+Avgs.:	97	155
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	91	163
+Std.:	17	46
+Devs.
+	0	1
+Avgs.:	97	146
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	92	154
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	97	153
+Std.:	18	20
+Devs.
+	0	1
+Avgs.:	91	144
+Std.:	19	21
+Devs.
+	0	1
+Avgs.:	85	140
+Std.:	33	19
+Devs.
+	0	1
+Avgs.:	95	141
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	19	14
+Devs.
+	0	1
+Avgs.:	87	143
+Std.:	20	19
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	20	21
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	88	184
+Std.:	20	70
+Devs.
+	0	1
+Avgs.:	91	147
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	100	144
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	98	154
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	100	150
+Std.:	29	13
+Devs.
+	0	1
+Avgs.:	99	143
+Std.:	31	20
+Devs.
+	0	1
+Avgs.:	100	148
+Std.:	33	15
+Devs.
+	0	1
+Avgs.:	99	141
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	33	23
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	98	151
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	93	156
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	98	155
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	98	154
+Std.:	30	14
+Devs.
+	0	1
+Avgs.:	87	162
+Std.:	16	56
+Devs.
+	0	1
+Avgs.:	99	147
+Std.:	30	15
+Devs.
+	0	1
+Avgs.:	106	152
+Std.:	42	21
+Devs.
+	0	1
+Avgs.:	90	166
+Std.:	15	54
+Devs.
+	0	1
+Avgs.:	94	150
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	92	152
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	14	16
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	99	156
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	29	22
+Devs.
+	0	1
+Avgs.:	96	140
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	96	172
+Std.:	17	53
+Devs.
+	0	1
+Avgs.:	101	156
+Std.:	28	18
+Devs.
+	0	1
+Avgs.:	97	157
+Std.:	11	18
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	97	149
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	95	153
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	93	140
+Std.:	16	22
+Devs.
+	0	1
+Avgs.:	94	144
+Std.:	20	18
+Devs.
+	0	1
+Avgs.:	93	156
+Std.:	31	50
+Devs.
+	0	1
+Avgs.:	99	155
+Std.:	38	48
+Devs.
+	0	1
+Avgs.:	97	144
+Std.:	36	22
+Devs.
+	0	1
+Avgs.:	91	157
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	92	151
+Std.:	15	44
+Devs.
+	0	1
+Avgs.:	94	157
+Std.:	17	52
+Devs.
+	0	1
+Avgs.:	95	170
+Std.:	17	53
+Devs.
+	0	1
+Avgs.:	90	145
+Std.:	17	12
+Devs.
+	0	1
+Avgs.:	94	147
+Std.:	31	12
+Devs.
+	0	1
+Avgs.:	92	143
+Std.:	15	11
+Devs.
+	0	1
+Avgs.:	91	151
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	87	152
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	31	17
+Devs.
+	0	1
+Avgs.:	91	150
+Std.:	13	20
+Devs.
+	0	1
+Avgs.:	93	146
+Std.:	33	21
+Devs.
+	0	1
+Avgs.:	91	166
+Std.:	18	49
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	97	146
+Std.:	18	15
+Devs.
+	0	1
+Avgs.:	93	169
+Std.:	15	57
+Devs.
+	0	1
+Avgs.:	96	150
+Std.:	30	14
+Devs.
+	0	1
+Avgs.:	89	158
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	91	173
+Std.:	17	48
+Devs.
+	0	1
+Avgs.:	94	147
+Std.:	31	23
+Devs.
+	0	1
+Avgs.:	94	161
+Std.:	16	45
+Devs.
+	0	1
+Avgs.:	96	143
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	91	163
+Std.:	17	50
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	27	14
+Devs.
+	0	1
+Avgs.:	92	149
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	86	142
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	95	146
+Std.:	17	26
+Devs.
+	0	1
+Avgs.:	91	154
+Std.:	15	23
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	14	11
+Devs.
+	0	1
+Avgs.:	93	151
+Std.:	13	20
+Devs.
+	0	1
+Avgs.:	89	147
+Std.:	35	18
+Devs.
+	0	1
+Avgs.:	88	149
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	99	160
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	96	146
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	99	146
+Std.:	28	13
+Devs.
+	0	1
+Avgs.:	96	147
+Std.:	16	26
+Devs.
+	0	1
+Avgs.:	93	160
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	97	157
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	94	166
+Std.:	14	18
+Devs.
+	0	1
+Avgs.:	97	160
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	89	159
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	93	157
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	95	178
+Std.:	31	65
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	14	19
+Devs.
+	0	1
+Avgs.:	95	158
+Std.:	16	51
+Devs.
+	0	1
+Avgs.:	95	157
+Std.:	15	10
+Devs.
+	0	1
+Avgs.:	98	155
+Std.:	28	16
+Devs.
+	0	1
+Avgs.:	90	156
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	92	157
+Std.:	14	7
+Devs.
+	0	1
+Avgs.:	94	172
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	95	160
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	97	172
+Std.:	30	50
+Devs.
+	0	1
+Avgs.:	97	152
+Std.:	18	25
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	14	16
+Devs.
+	0	1
+Avgs.:	98	159
+Std.:	30	20
+Devs.
+	0	1
+Avgs.:	96	163
+Std.:	18	52
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	16	11
+Devs.
+	0	1
+Avgs.:	90	158
+Std.:	15	14
+Devs.
+	0	1
+Avgs.:	100	155
+Std.:	30	15
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	97	158
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	95	155
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	86	141
+Std.:	16	11
+Devs.
+	0	1
+Avgs.:	97	151
+Std.:	28	17
+Devs.
+	0	1
+Avgs.:	91	145
+Std.:	19	14
+Devs.
+	0	1
+Avgs.:	96	144
+Std.:	35	14
+Devs.
+	0	1
+Avgs.:	91	149
+Std.:	14	16
+Devs.
+	0	1
+Avgs.:	92	144
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	92	146
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	104	150
+Std.:	80	16
+Devs.
+	0	1
+Avgs.:	92	151
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	100	155
+Std.:	40	16
+Devs.
+	0	1
+Avgs.:	89	157
+Std.:	15	54
+Devs.
+	0	1
+Avgs.:	94	153
+Std.:	13	54
+Devs.
+	0	1
+Avgs.:	102	150
+Std.:	51	18
+Devs.
+	0	1
+Avgs.:	90	141
+Std.:	12	19
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	13	10
+Devs.
+	0	1
+Avgs.:	90	162
+Std.:	15	46
+Devs.
+	0	1
+Avgs.:	95	152
+Std.:	19	20
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	20	21
+Devs.
+	0	1
+Avgs.:	97	162
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	88	138
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	95	161
+Std.:	30	55
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	17	13
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	97	141
+Std.:	30	15
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	31	12
+Devs.
+	0	1
+Avgs.:	96	145
+Std.:	32	14
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	91	152
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	84	167
+Std.:	17	49
+Devs.
+	0	1
+Avgs.:	90	146
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	99	145
+Std.:	40	12
+Devs.
+	0	1
+Avgs.:	85	137
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	95	170
+Std.:	17	45
+Devs.
+	0	1
+Avgs.:	91	158
+Std.:	19	20
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	90	141
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	15	43
+Devs.
+	0	1
+Avgs.:	94	154
+Std.:	30	23
+Devs.
+	0	1
+Avgs.:	105	166
+Std.:	39	19
+Devs.
+	0	1
+Avgs.:	92	161
+Std.:	16	47
+Devs.
+	0	1
+Avgs.:	92	148
+Std.:	14	15
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	14	17
+Devs.
+	0	1
+Avgs.:	100	149
+Std.:	31	17
+Devs.
+	0	1
+Avgs.:	93	147
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	17	24
+Devs.
+	0	1
+Avgs.:	100	152
+Std.:	32	15
+Devs.
+	0	1
+Avgs.:	96	145
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	92	160
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	99	156
+Std.:	34	18
+Devs.
+	0	1
+Avgs.:	96	157
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	100	152
+Std.:	28	15
+Devs.
+	0	1
+Avgs.:	93	168
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	98	157
+Std.:	18	53
+Devs.
+	0	1
+Avgs.:	100	161
+Std.:	30	11
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	14	22
+Devs.
+	0	1
+Avgs.:	96	162
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	102	158
+Std.:	27	14
+Devs.
+	0	1
+Avgs.:	92	158
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	94	154
+Std.:	29	11
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	15	24
+Devs.
+	0	1
+Avgs.:	92	148
+Std.:	16	11
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	93	162
+Std.:	14	45
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	31	22
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	29	16
+Devs.
+	0	1
+Avgs.:	93	155
+Std.:	15	19
+Devs.
+	0	1
+Avgs.:	95	151
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	96	150
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	100	144
+Std.:	40	16
+Devs.
+	0	1
+Avgs.:	90	144
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	94	160
+Std.:	32	18
+Devs.
+	0	1
+Avgs.:	98	153
+Std.:	30	18
+Devs.
+	0	1
+Avgs.:	102	144
+Std.:	32	11
+Devs.
+	0	1
+Avgs.:	99	144
+Std.:	42	19
+Devs.
+	0	1
+Avgs.:	102	158
+Std.:	41	57
+Devs.
+	0	1
+Avgs.:	98	151
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	85	182
+Std.:	17	66
+Devs.
+	0	1
+Avgs.:	89	146
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	89	154
+Std.:	16	48
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	30	22
+Devs.
+	0	1
+Avgs.:	96	165
+Std.:	30	43
+Devs.
+	0	1
+Avgs.:	89	145
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	29	15
+Devs.
+	0	1
+Avgs.:	92	148
+Std.:	17	11
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	32	19
+Devs.
+	0	1
+Avgs.:	96	138
+Std.:	15	25
+Devs.
+	0	1
+Avgs.:	88	137
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	92	151
+Std.:	15	26
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	19	17
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	92	142
+Std.:	17	10
+Devs.
+	0	1
+Avgs.:	98	173
+Std.:	31	68
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	19	18
+Devs.
+	0	1
+Avgs.:	98	150
+Std.:	34	18
+Devs.
+	0	1
+Avgs.:	98	145
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	94	154
+Std.:	17	43
+Devs.
+	0	1
+Avgs.:	83	140
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	100	150
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	96	150
+Std.:	30	15
+Devs.
+	0	1
+Avgs.:	86	140
+Std.:	30	14
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	18	23
+Devs.
+	0	1
+Avgs.:	93	141
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	97	149
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	14	57
+Devs.
+	0	1
+Avgs.:	90	150
+Std.:	14	18
+Devs.
+	0	1
+Avgs.:	93	155
+Std.:	17	23
+Devs.
+	0	1
+Avgs.:	98	146
+Std.:	31	17
+Devs.
+	0	1
+Avgs.:	97	150
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	98	167
+Std.:	31	46
+Devs.
+	0	1
+Avgs.:	94	159
+Std.:	13	52
+Devs.
+	0	1
+Avgs.:	93	175
+Std.:	16	68
+Devs.
+	0	1
+Avgs.:	97	142
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	98	151
+Std.:	12	18
+Devs.
+	0	1
+Avgs.:	94	164
+Std.:	10	48
+Devs.
+	0	1
+Avgs.:	97	148
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	103	168
+Std.:	44	57
+Devs.
+	0	1
+Avgs.:	98	154
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	102	148
+Std.:	30	16
+Devs.
+	0	1
+Avgs.:	99	144
+Std.:	32	16
+Devs.
+	0	1
+Avgs.:	95	152
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	100	150
+Std.:	17	23
+Devs.
+	0	1
+Avgs.:	95	139
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	93	153
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	100	149
+Std.:	28	19
+Devs.
+	0	1
+Avgs.:	92	152
+Std.:	13	23
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	30	19
+Devs.
+	0	1
+Avgs.:	97	158
+Std.:	14	45
+Devs.
+	0	1
+Avgs.:	95	174
+Std.:	18	57
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	90	152
+Std.:	14	21
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	31	16
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	99	149
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	95	158
+Std.:	16	55
+Devs.
+	0	1
+Avgs.:	100	152
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	98	146
+Std.:	31	15
+Devs.
+	0	1
+Avgs.:	99	156
+Std.:	16	24
+Devs.
+	0	1
+Avgs.:	92	146
+Std.:	16	14
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	31	25
+Devs.
+	0	1
+Avgs.:	99	146
+Std.:	38	14
+Devs.
+	0	1
+Avgs.:	104	145
+Std.:	40	15
+Devs.
+	0	1
+Avgs.:	101	147
+Std.:	28	17
+Devs.
+	0	1
+Avgs.:	102	159
+Std.:	40	14
+Devs.
+	0	1
+Avgs.:	92	166
+Std.:	15	53
+Devs.
+	0	1
+Avgs.:	92	152
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	40	19
+Devs.
+	0	1
+Avgs.:	88	165
+Std.:	17	57
+Devs.
+	0	1
+Avgs.:	84	170
+Std.:	15	52
+Devs.
+	0	1
+Avgs.:	92	157
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	98	179
+Std.:	40	66
+Devs.
+	0	1
+Avgs.:	100	151
+Std.:	41	17
+Devs.
+	0	1
+Avgs.:	90	149
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	92	157
+Std.:	30	10
+Devs.
+	0	1
+Avgs.:	88	160
+Std.:	15	58
+Devs.
+	0	1
+Avgs.:	90	173
+Std.:	14	60
+Devs.
+	0	1
+Avgs.:	91	146
+Std.:	13	18
+Devs.
+	0	1
+Avgs.:	90	145
+Std.:	15	17
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	18	23
+Devs.
+	0	1
+Avgs.:	91	140
+Std.:	20	17
+Devs.
+	0	1
+Avgs.:	95	162
+Std.:	32	57
+Devs.
+	0	1
+Avgs.:	93	141
+Std.:	32	15
+Devs.
+	0	1
+Avgs.:	93	149
+Std.:	19	23
+Devs.
+	0	1
+Avgs.:	91	158
+Std.:	16	49
+Devs.
+	0	1
+Avgs.:	90	162
+Std.:	16	51
+Devs.
+	0	1
+Avgs.:	93	145
+Std.:	18	22
+Devs.
+	0	1
+Avgs.:	94	146
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	97	153
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	90	150
+Std.:	33	21
+Devs.
+	0	1
+Avgs.:	94	142
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	89	152
+Std.:	19	18
+Devs.
+	0	1
+Avgs.:	94	140
+Std.:	44	13
+Devs.
+	0	1
+Avgs.:	90	153
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	93	150
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	96	149
+Std.:	32	24
+Devs.
+	0	1
+Avgs.:	96	160
+Std.:	29	59
+Devs.
+	0	1
+Avgs.:	97	147
+Std.:	30	20
+Devs.
+	0	1
+Avgs.:	90	150
+Std.:	18	20
+Devs.
+	0	1
+Avgs.:	98	147
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	95	163
+Std.:	16	39
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	91	148
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	101	157
+Std.:	29	52
+Devs.
+	0	1
+Avgs.:	96	145
+Std.:	13	17
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	19	16
+Devs.
+	0	1
+Avgs.:	100	147
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	99	148
+Std.:	39	17
+Devs.
+	0	1
+Avgs.:	100	170
+Std.:	30	61
+Devs.
+	0	1
+Avgs.:	95	145
+Std.:	15	22
+Devs.
+	0	1
+Avgs.:	102	153
+Std.:	44	20
+Devs.
+	0	1
+Avgs.:	99	140
+Std.:	36	13
+Devs.
+	0	1
+Avgs.:	98	147
+Std.:	19	12
+Devs.
+	0	1
+Avgs.:	97	145
+Std.:	17	20
+Devs.
+	0	1
+Avgs.:	97	162
+Std.:	19	54
+Devs.
+	0	1
+Avgs.:	96	159
+Std.:	18	15
+Devs.
+	0	1
+Avgs.:	94	144
+Std.:	15	18
+Devs.
+	0	1
+Avgs.:	98	156
+Std.:	41	21
+Devs.
+	0	1
+Avgs.:	96	145
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	97	152
+Std.:	18	24
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	19	20
+Devs.
+	0	1
+Avgs.:	101	144
+Std.:	33	18
+Devs.
+	0	1
+Avgs.:	98	140
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	102	148
+Std.:	29	13
+Devs.
+	0	1
+Avgs.:	98	136
+Std.:	18	14
+Devs.
+	0	1
+Avgs.:	98	145
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	99	169
+Std.:	28	60
+Devs.
+	0	1
+Avgs.:	100	145
+Std.:	34	12
+Devs.
+	0	1
+Avgs.:	94	153
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	98	144
+Std.:	18	15
+Devs.
+	0	1
+Avgs.:	95	137
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	97	153
+Std.:	17	17
+Devs.
+	0	1
+Avgs.:	94	140
+Std.:	14	14
+Devs.
+	0	1
+Avgs.:	97	151
+Std.:	29	14
+Devs.
+	0	1
+Avgs.:	89	157
+Std.:	17	43
+Devs.
+	0	1
+Avgs.:	94	143
+Std.:	36	17
+Devs.
+	0	1
+Avgs.:	90	184
+Std.:	32	79
+Devs.
+	0	1
+Avgs.:	94	148
+Std.:	31	20
+Devs.
+	0	1
+Avgs.:	90	144
+Std.:	16	13
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	100	158
+Std.:	41	43
+Devs.
+	0	1
+Avgs.:	93	176
+Std.:	35	65
+Devs.
+	0	1
+Avgs.:	96	148
+Std.:	31	14
+Devs.
+	0	1
+Avgs.:	97	143
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	92	145
+Std.:	17	9
+Devs.
+	0	1
+Avgs.:	92	145
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	100	148
+Std.:	46	19
+Devs.
+	0	1
+Avgs.:	93	148
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	93	144
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	100	154
+Std.:	37	18
+Devs.
+	0	1
+Avgs.:	92	142
+Std.:	33	15
+Devs.
+	0	1
+Avgs.:	96	151
+Std.:	16	16
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	14	13
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	19	17
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	18	17
+Devs.
+	0	1
+Avgs.:	92	161
+Std.:	18	51
+Devs.
+	0	1
+Avgs.:	91	159
+Std.:	19	50
+Devs.
+	0	1
+Avgs.:	93	147
+Std.:	18	19
+Devs.
+	0	1
+Avgs.:	91	148
+Std.:	13	15
+Devs.
+	0	1
+Avgs.:	92	151
+Std.:	30	16
+Devs.
+	0	1
+Avgs.:	101	165
+Std.:	31	57
+Devs.
+	0	1
+Avgs.:	103	157
+Std.:	19	23
+Devs.
+	0	1
+Avgs.:	91	140
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	90	143
+Std.:	18	13
+Devs.
+	0	1
+Avgs.:	96	153
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	95	146
+Std.:	32	18
+Devs.
+	0	1
+Avgs.:	89	142
+Std.:	17	16
+Devs.
+	0	1
+Avgs.:	96	149
+Std.:	18	21
+Devs.
+	0	1
+Avgs.:	88	150
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	101	152
+Std.:	29	20
+Devs.
+	0	1
+Avgs.:	99	147
+Std.:	16	15
+Devs.
+	0	1
+Avgs.:	89	143
+Std.:	19	21
+Devs.
+	0	1
+Avgs.:	96	137
+Std.:	15	10
+Devs.
+	0	1
+Avgs.:	94	164
+Std.:	15	52
+Devs.
+	0	1
+Avgs.:	96	149
+Std.:	17	15
+Devs.
+	0	1
+Avgs.:	100	163
+Std.:	34	43
+Devs.
+	0	1
+Avgs.:	99	172
+Std.:	29	54
+Devs.
+	0	1
+Avgs.:	99	150
+Std.:	18	21
+Devs.
+	0	1
+Avgs.:	98	166
+Std.:	18	55
+Devs.
+	0	1
+Avgs.:	99	159
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	99	153
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	97	172
+Std.:	33	55
+Devs.
+	0	1
+Avgs.:	100	160
+Std.:	29	19
+Devs.
+	0	1
+Avgs.:	95	148
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	94	156
+Std.:	17	24
+Devs.
+	0	1
+Avgs.:	94	152
+Std.:	14	23
+Devs.
+	0	1
+Avgs.:	94	161
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	95	159
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	93	167
+Std.:	21	41
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	17	18
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	32	24
+Devs.
+	0	1
+Avgs.:	97	157
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	100	150
+Std.:	32	14
+Devs.
+	0	1
+Avgs.:	96	150
+Std.:	30	13
+Devs.
+	0	1
+Avgs.:	94	151
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	98	154
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	98	147
+Std.:	30	17
+Devs.
+	0	1
+Avgs.:	95	157
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	98	142
+Std.:	30	20
+Devs.
+	0	1
+Avgs.:	95	142
+Std.:	30	15
+Devs.
+	0	1
+Avgs.:	97	146
+Std.:	15	12
+Devs.
+	0	1
+Avgs.:	93	167
+Std.:	16	57
+Devs.
+	0	1
+Avgs.:	93	157
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	95	150
+Std.:	17	21
+Devs.
+	0	1
+Avgs.:	90	144
+Std.:	15	13
+Devs.
+	0	1
+Avgs.:	92	160
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	100	163
+Std.:	17	22
+Devs.
+	0	1
+Avgs.:	97	154
+Std.:	16	11
+Devs.
+	0	1
+Avgs.:	89	139
+Std.:	16	18
+Devs.
+	0	1
+Avgs.:	94	159
+Std.:	31	22
+Devs.
+	0	1
+Avgs.:	92	156
+Std.:	34	15
+Devs.
+	0	1
+Avgs.:	93	158
+Std.:	14	14
+Devs.
+	0	1
+Avgs.:	92	159
+Std.:	31	52
+Devs.
+	0	1
+Avgs.:	92	139
+Std.:	31	14
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	29	17
+Devs.
+	0	1
+Avgs.:	94	143
+Std.:	29	25
+Devs.
+	0	1
+Avgs.:	91	151
+Std.:	19	21
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	13	17
+Devs.
+	0	1
+Avgs.:	108	1331
+Std.:	48	4072
+Devs.
+	0	1
+Avgs.:	96	156
+Std.:	14	13
+Devs.
+	0	1
+Avgs.:	98	149
+Std.:	31	21
+Devs.
+	0	1
+Avgs.:	98	159
+Std.:	42	45
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	45	13
+Devs.
+	0	1
+Avgs.:	87	146
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	94	144
+Std.:	30	16
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	19	22
+Devs.
+	0	1
+Avgs.:	94	143
+Std.:	32	17
+Devs.
+	0	1
+Avgs.:	92	149
+Std.:	15	25
+Devs.
+	0	1
+Avgs.:	96	152
+Std.:	18	20
+Devs.
+	0	1
+Avgs.:	94	167
+Std.:	15	47
+Devs.
+	0	1
+Avgs.:	95	156
+Std.:	16	47
+Devs.
+	0	1
+Avgs.:	97	145
+Std.:	34	15
+Devs.
+	0	1
+Avgs.:	96	139
+Std.:	17	14
+Devs.
+	0	1
+Avgs.:	97	140
+Std.:	29	19
+Devs.
+	0	1
+Avgs.:	88	148
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	102	148
+Std.:	31	18
+Devs.
+	0	1
+Avgs.:	90	141
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	90	145
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	93	152
+Std.:	21	18
+Devs.
+	0	1
+Avgs.:	92	143
+Std.:	20	16
+Devs.
+	0	1
+Avgs.:	91	162
+Std.:	21	22
+Devs.
+	0	1
+Avgs.:	93	162
+Std.:	19	19
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	18	28
+Devs.
+	0	1
+Avgs.:	93	166
+Std.:	23	29
+Devs.
+	0	1
+Avgs.:	92	155
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	95	142
+Std.:	15	16
+Devs.
+	0	1
+Avgs.:	93	154
+Std.:	16	20
+Devs.
+	0	1
+Avgs.:	98	146
+Std.:	17	24
+Devs.
+	0	1
+Avgs.:	100	154
+Std.:	32	53
+Devs.
+	0	1
+Avgs.:	98	150
+Std.:	30	23
+Devs.
+	0	1
+Avgs.:	94	155
+Std.:	18	22
+Devs.
+	0	1
+Avgs.:	101	157
+Std.:	30	20
+Devs.
+	0	1
+Avgs.:	95	149
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	99	161
+Std.:	36	16
+Devs.
+	0	1
+Avgs.:	94	149
+Std.:	16	44
+Devs.
+	0	1
+Avgs.:	100	147
+Std.:	31	19
+Devs.
+	0	1
+Avgs.:	92	150
+Std.:	16	22
+Devs.
+	0	1
+Avgs.:	96	154
+Std.:	15	23
+Devs.
+	0	1
+Avgs.:	101	148
+Std.:	29	19
+Devs.
+	0	1
+Avgs.:	108	158
+Std.:	39	23
+Devs.
+	0	1
+Avgs.:	94	142
+Std.:	18	16
+Devs.
+	0	1
+Avgs.:	93	180
+Std.:	15	63
+Devs.
+	0	1
+Avgs.:	95	141
+Std.:	32	10
+Devs.
+	0	1
+Avgs.:	99	154
+Std.:	32	20
+Devs.
+	0	1
+Avgs.:	94	148
+Std.:	18	18
+Devs.
+	0	1
+Avgs.:	99	159
+Std.:	19	17
+Devs.
+	0	1
+Avgs.:	103	152
+Std.:	39	16
+Devs.
+	0	1
+Avgs.:	98	143
+Std.:	16	21
+Devs.
+	0	1
+Avgs.:	95	139
+Std.:	16	17
+Devs.
+	0	1
+Avgs.:	95	147
+Std.:	16	23
+Devs.
+	0	1
+Avgs.:	95	154
+Std.:	17	19
+Devs.
+	0	1
+Avgs.:	91	153
+Std.:	15	20
+Devs.
+	0	1
+Avgs.:	94	145
+Std.:	15	21
+Devs.
+	0	1
+Avgs.:	92	142
+Std.:	15	15
+Devs.
+	0	1
+Avgs.:	97	149
+Std.:	16	19
+Devs.
+	0	1
+Avgs.:	98	153
+Std.:	14	18
+Devs.

@@ -79,6 +79,30 @@ namespace {
         return instlist;
     }
 
+    void moveInstToBottomOfBB(BasicBlock* bb, Instruction& inst) {
+    	auto* suppInst(inst.clone());
+	inst.replaceAllUsesWith(suppInst);
+	inst.eraseFromParent();
+	suppInst->insertBefore(bb->getTerminator());
+    }
+
+    bool moveRDTSCToBlockTerminator(BasicBlock* loopBody) {
+    	for (auto it = loopBody->begin(); it != loopBody->end(); ++it) {
+		if (isa<CallInst>(*it)) {
+			errs() << "call inst: " << *it << "\n";
+			for (int i = 0; i < 5; ++i) {
+				moveInstToBottomOfBB(loopBody, *it++);
+			}
+			errs() << "moved call instruction\n";
+			errs() << *loopBody << "\n";
+			return true;	
+		}
+	}
+	
+	errs() << "did NOT move call instruction\n";
+	return false;
+    }
+
     bool hoistInstr(Loop* L, ControlDependentBlocks& change){
         //first, hoist the instructions in the first basic BLOCKS
         errs() << *change.taken << "\n";
@@ -114,8 +138,11 @@ namespace {
             }
             errs() << "FUCK IT 5\n";
         }
-	    return true;
+	moveRDTSCToBlockTerminator(preIf);
+	return true;
     }
+
+    
 
   struct CF_SEC : public LoopPass {
   public:
