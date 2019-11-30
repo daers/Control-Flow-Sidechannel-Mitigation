@@ -48,9 +48,11 @@ clang -emit-llvm -c ${BENCH}.c -o ${BENCH}.bc -S
 # Apply your pass to bitcode (IR)
 opt -load ${PATH_MYPASS} ${NAME_MYPASS} < ${BENCH}.bc > out -S
 
-rm out.bc 
 cp out out.bc && clang out.bc -o passed_code
 
+./passed_code > stats && rm out.bc
 
-./passed_code && rm out.bc
+python stats.py
+
+rm passed_code stats
 

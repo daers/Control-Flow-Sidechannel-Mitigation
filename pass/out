@@ -6,7 +6,7 @@ target triple = "x86_64-unknown-linux-gnu"
 %struct._IO_FILE = type { i32, i8*, i8*, i8*, i8*, i8*, i8*, i8*, i8*, i8*, i8*, i8*, %struct._IO_marker*, %struct._IO_FILE*, i32, i32, i64, i16, i8, [1 x i8], i8*, i64, i8*, i8*, i8*, i8*, i64, i32, [20 x i8] }
 %struct._IO_marker = type { %struct._IO_marker*, %struct._IO_FILE*, i32 }
 
-@.str = private unnamed_addr constant [9 x i8] c"%ld\09%lu\0A\00", align 1
+@.str = private unnamed_addr constant [13 x i8] c"%ld\09%ld\09%lu\0A\00", align 1
 @.str.1 = private unnamed_addr constant [16 x i8] c"modexp_data.txt\00", align 1
 @.str.2 = private unnamed_addr constant [2 x i8] c"r\00", align 1
 @.str.3 = private unnamed_addr constant [42 x i8] c"Failed to open file. exiting with error.\0A\00", align 1
@@ -168,23 +168,24 @@ if.end:                                           ; preds = %if.else, %if.then
   %23 = load i32, i32* %end_lo, align 4
   %call8 = call i64 @elapsed(i32 %20, i32 %21, i32 %22, i32 %23)
   store i64 %call8, i64* %e, align 8
-  %24 = load i64*, i64** %bb, align 8
-  %25 = load i64, i64* %i, align 8
-  %arrayidx9 = getelementptr inbounds i64, i64* %24, i64 %25
-  %26 = load i64, i64* %arrayidx9, align 8
-  %27 = load i64, i64* %e, align 8
-  %call10 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str, i32 0, i32 0), i64 %26, i64 %27)
+  %24 = load i64, i64* %b.addr, align 8
+  %25 = load i64*, i64** %bb, align 8
+  %26 = load i64, i64* %i, align 8
+  %arrayidx9 = getelementptr inbounds i64, i64* %25, i64 %26
+  %27 = load i64, i64* %arrayidx9, align 8
+  %28 = load i64, i64* %e, align 8
+  %call10 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str, i32 0, i32 0), i64 %24, i64 %27, i64 %28)
   br label %for.inc
 
 for.inc:                                          ; preds = %if.end
-  %28 = load i64, i64* %i, align 8
-  %dec = add nsw i64 %28, -1
+  %29 = load i64, i64* %i, align 8
+  %dec = add nsw i64 %29, -1
   store i64 %dec, i64* %i, align 8
   br label %for.cond
 
 for.end:                                          ; preds = %for.cond
-  %29 = load i64, i64* %d, align 8
-  ret i64 %29
+  %30 = load i64, i64* %d, align 8
+  ret i64 %30
 }
 
 ; Function Attrs: nounwind
@@ -277,5 +278,5 @@ attributes #5 = { noreturn nounwind }
 
 !0 = !{i32 1, !"wchar_size", i32 4}
 !1 = !{!"clang version 8.0.1 (tags/RELEASE_801/final)"}
-!2 = !{i32 -2143847022, i32 -2143847014, i32 -2143846982, i32 -2143846942, i32 -2143846902}
-!3 = !{i32 -2143846770, i32 -2143846761, i32 -2143846721, i32 -2143846681, i32 -2143846649}
+!2 = !{i32 -2143847010, i32 -2143847002, i32 -2143846970, i32 -2143846930, i32 -2143846890}
+!3 = !{i32 -2143846758, i32 -2143846749, i32 -2143846709, i32 -2143846669, i32 -2143846637}
