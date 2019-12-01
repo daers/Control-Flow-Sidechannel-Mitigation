@@ -1,6 +1,8 @@
-cd build
+cd build 
+cmake ..
+cd pass
 make -j2
-cd ..
+cd ../../
 #
 # PATH2LIB=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so        # Specify your build directory in the project
 # PASS=-cf_sec                   # Choose either -fplicm-correctness or -fplicm-performance
