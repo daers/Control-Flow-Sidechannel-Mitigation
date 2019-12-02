@@ -17,10 +17,10 @@ for filename in os.listdir(stats_directory):
 		statistics.append(data)
 
 for idx, df in enumerate(statistics):
-	print("Data for data frame " + idx)
-	print("Zero Average: " + df["zero_avg"].mean())
-	print("One Average: " + df["one_avg"].mean())
-	print("Diff Average: " + df["diff"].mean())
+	print("Data for data frame " + str(idx))
+	print("Zero Average: " + str(df["zero_avg"].mean()))
+	print("One Average: " + str(df["one_avg"].mean()))
+	print("Diff Average: " + str(df["diff"].mean()))
 	print("\n")
 
 
