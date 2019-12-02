@@ -1,0 +1,25 @@
+cd build 
+cmake ..
+cd pass
+make -j2
+cd ../../
+
+PATH_MYPASS=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so  ### Action Required: Specify the path to your pass ###
+NAME_MYPASS=-cf_sec                            ### Action Required: Specify the name for your pass ###
+
+BENCH=../benchmarks/${1}
+
+rm ${BENCH}.bc
+
+# Convert source code to bitcode (IR)
+# This approach has an issue with -O2, so we are going to stick with default optimization level (-O0)
+clang -emit-llvm -c ${BENCH}.c -o ${BENCH}.bc -S
+
+clang ${BENCH}.bc -o passed_code
+
+./passed_code > stats 
+
+python stats.py
+
+rm passed_code stats
+
