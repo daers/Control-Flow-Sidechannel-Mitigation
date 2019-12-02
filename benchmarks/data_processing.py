@@ -20,7 +20,7 @@ statistics = []
 class File_Stats:
 	def __init__(self, name_in, data_in):
 		name = name_in
-		data = data_in
+		data = data_in.copy()
 
 # 	def append_stats(self, new_value):
 # 		self.stats_list.append(new_value)
@@ -40,9 +40,9 @@ for filename in os.listdir(stats_directory):
 	if filename.endswith(".csv"):
 		filename_complete = stats_directory + filename
 		data = pd.read_csv(filename_complete, sep='\t')
-		# current_file = File_Stats(filename_complete, data)
+		current_file = File_Stats(filename_complete, data)
 
-		statistics.append(data)
+		statistics.append(current_file)
 
 for file in statistics:
-	print(file)
+	print(file.data)
