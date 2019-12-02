@@ -1,4 +1,5 @@
 BENCH=../benchmarks/${1}
+PATH_OUT=../benchmarks/out_dir/pre_pass.csv
 
 rm ${BENCH}.bc
 
@@ -10,7 +11,7 @@ clang ${BENCH}.bc -o passed_code
 
 ./passed_code > stats 
 
-python stats.py
+python stats.py > ${PATH_OUT}
 
 rm passed_code stats
 

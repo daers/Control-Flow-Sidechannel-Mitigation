@@ -40,6 +40,7 @@ cd ../../
 PATH_MYPASS=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so  ### Action Required: Specify the path to your pass ###
 NAME_MYPASS=-cf_sec                            ### Action Required: Specify the name for your pass ###
 BENCH=../benchmarks/${1}
+PATH_OUT=../benchmarks/out_dir/post_pass.csv
 
 rm ${BENCH}.bc
 
@@ -54,7 +55,7 @@ cp out out.bc && clang out.bc -o passed_code
 
 ./passed_code > stats && rm out.bc
 
-python stats.py
+python stats.py > ${PATH_OUT}
 
 rm passed_code stats
 

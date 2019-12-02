@@ -1,8 +1,3 @@
--- Linker detection: GNU ld
--- Configuring done
--- Generating done
--- Build files have been written to: /home/darojas/Control-Flow-Sidechannel-Mitigation/pass/build
-[100%] Built target CF_SEC
 exp	zero_avg	zero_stdev	one_avg	one_stdev	diff
 1027960836	46	7.07106781187	56	8.66025403784	10
 1654001669	68	5.9160797831	88	9.05538513814	20

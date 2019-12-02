@@ -48,10 +48,12 @@ for line in open("stats", 'r').readlines()[1:]:
         cycles_dict[exp][bit] = []
     cycles_dict[exp][bit].append(cycles)
 
-print("exp\tzero_avg\tzero_stdev\tone_avg\tone_stdev\tdiff") # Comment
+# Block 2 is more readable. Block 1 is for generating CSV file. 
+# One should be commented out.
+print("exp\tzero_avg\tzero_stdev\tone_avg\tone_stdev\tdiff") # Block 1
 for exp in cycles_dict:
-    # print("Exp:\t" + str(exp))
-    # calculate_stats(cycles_dict[exp])
-    calculate_stats_for_processing(cycles_dict[exp], exp) # Comment
+    # print("Exp:\t" + str(exp)) # Block 2
+    # calculate_stats(cycles_dict[exp]) # Block 2
+    calculate_stats_for_processing(cycles_dict[exp], exp) # Block 1 
 
 
