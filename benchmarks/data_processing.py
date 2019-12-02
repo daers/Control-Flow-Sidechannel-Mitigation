@@ -1,25 +1,37 @@
 import csv, os
-import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
-stats_directory = "./out_dir/"
+stats_directory = "~/benchmarks/out_dir/"
 
 filenames = []
+statistics = []
 
-for filename in os.listdir(current_in_directory):
+class Stats_Info:
+	def __init__(self, exp, zero_avg, zero_stdev, one_avg, one_stdev, diff):
+	    self.exp = exp
+	    self.zero_avg = zero_avg
+	    self.zero_stdev = zero_stdev
+	    self.one_avg = one_avg
+	    self.one_stdev = one_stdev
+	    self.diff = diff
+
+class File_Stats:
+	stats_list = []
+
+	def append_stats(self, new_value):
+		self.stats_list.append(new_value)
+
+for filename in os.listdir(stats_directory):
 	if filename.endswith(".csv"):
-		filenames.append(filename)
-		out_file = "out" + filename
-
-		filename = current_in_directory + filename
-		with open(filename, "r") as stats_file:
-			readCSV = csv.reader(stats_file, delimiter=',')
+		filename_complete = current_in_directory + filename
+		with open(filename_complete, "r") as stats_file:
+			current_file = File_Stats()
+			readCSV = csv.reader(stats_file, delimiter='\t')
 			for row in readCSV:
-				print(row)
+				row_stats = Stats_Info(row[0], row[1], row[2], row[3], row[4], row[5])
+				current_file.append_stats(row_stats)
+			statistics.append(current_file)
 
-	# for line in stats_file:
-	# 	if sentinel % 4 == 1:
-
-	# 	elif sentinel % 4 == 2:
-
-	# 	sentinel++;
+for file in statistics:
+	print()

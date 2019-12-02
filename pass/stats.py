@@ -25,6 +25,16 @@ def calculate_stats(exp_dict):
     print("Diff:\t" + str(one_avg - zero_avg))
     print("\n")
 
+# PRINT IN FORMAT: exp zero_avg zero_stdev one_avg one_stdev diff
+def calculate_stats_for_processing(exp_dict, exp):
+    z_ticks = exp_dict[0]
+    o_ticks = exp_dict[1]
+    z_avg = avg(z_ticks)
+    o_avg = avg(o_ticks)
+    z_stdev = std_dev(z_ticks, z_avg)
+    o_stdev = std_dev(o_ticks, o_avg)
+    diff_avg = (o_avg - z_avg)
+    print(str(exp) + "\t" + str(z_avg) + "\t" + str(z_stdev) + "\t" + str(o_avg) + "\t" + str(o_stdev) + "\t" + str(diff_avg))
 
 cycles_dict = {}
 for line in open("stats", 'r').readlines()[1:]:
@@ -38,8 +48,10 @@ for line in open("stats", 'r').readlines()[1:]:
         cycles_dict[exp][bit] = []
     cycles_dict[exp][bit].append(cycles)
 
+print("exp\tzero_avg\tzero_stdev\tone_avg\tone_stdev\tdiff") # Comment
 for exp in cycles_dict:
-    print("Exp:\t" + str(exp))
-    calculate_stats(cycles_dict[exp])
+    # print("Exp:\t" + str(exp))
+    # calculate_stats(cycles_dict[exp])
+    calculate_stats_for_processing(cycles_dict[exp], exp) # Comment
 
 
