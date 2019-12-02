@@ -1,12 +1,3 @@
-cd build 
-cmake ..
-cd pass
-make -j2
-cd ../../
-
-PATH_MYPASS=~/Control-Flow-Sidechannel-Mitigation/pass/build/pass/CF_SEC.so  ### Action Required: Specify the path to your pass ###
-NAME_MYPASS=-cf_sec                            ### Action Required: Specify the name for your pass ###
-
 BENCH=../benchmarks/${1}
 
 rm ${BENCH}.bc
