@@ -19,7 +19,9 @@ for filename in os.listdir(stats_directory):
 for idx, df in enumerate(statistics):
 	print("Data for data frame " + str(idx))
 	print("Zero Average: " + str(df["zero_avg"].mean()))
+	print("Zero stdev: " + str(df["zero_avg"].std()))
 	print("One Average: " + str(df["one_avg"].mean()))
+	print("One stdev: " + str(df["one_avg"].std()))
 	print("Diff Average: " + str(df["diff"].mean()))
 	print("\n")
 
