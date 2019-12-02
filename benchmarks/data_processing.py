@@ -21,7 +21,7 @@ def main():
     print_all(statistics)
 
 def print_empty_line():
-	print("~                                    ~")
+	print("~")
 
 def print_full_line():
 	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
