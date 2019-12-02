@@ -45,4 +45,4 @@ for filename in os.listdir(stats_directory):
 		statistics.append(data)
 
 for file in statistics:
-	print(file.data)
+	print(file)
