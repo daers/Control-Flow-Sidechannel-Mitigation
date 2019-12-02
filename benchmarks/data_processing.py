@@ -18,8 +18,6 @@ statistics = []
 # 	    self.diff = diff
 
 class File_Stats:
-	data = ""
-	name = ""
 	def __init__(self, name_in, data_in):
 		name = name_in
 		data = data_in
@@ -42,9 +40,9 @@ for filename in os.listdir(stats_directory):
 	if filename.endswith(".csv"):
 		filename_complete = stats_directory + filename
 		data = pd.read_csv(filename_complete, sep='\t')
-		current_file = File_Stats(filename_complete, data)
+		# current_file = File_Stats(filename_complete, data)
 
-		statistics.append(current_file)
+		statistics.append(data)
 
 for file in statistics:
 	print(file.data)
