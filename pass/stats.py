@@ -22,7 +22,8 @@ def calculate_stats(exp_dict):
     print("\tavg.\tstd. dev.")
     print("0:\t" + str(zero_avg) + "\t" + str(std_dev(zero_ticks, zero_avg)))
     print("1:\t" + str(one_avg) + "\t" + str(std_dev(one_ticks, one_avg)))
-    print("\n\n")
+    print("Diff:\t" + str(one_avg - zero_avg))
+    print("\n")
 
 
 cycles_dict = {}
@@ -38,7 +39,7 @@ for line in open("stats", 'r').readlines()[1:]:
     cycles_dict[exp][bit].append(cycles)
 
 for exp in cycles_dict:
-    print("\t" + str(exp))
+    print("Exp:\t" + str(exp))
     calculate_stats(cycles_dict[exp])
 
 
