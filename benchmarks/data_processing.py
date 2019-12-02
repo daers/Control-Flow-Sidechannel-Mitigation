@@ -2,7 +2,8 @@ import csv, os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-stats_directory = "~/Control-Flow-Sidechannel-Mitigation/benchmarks/out_dir/"
+repo_directory = os.path.expanduser("~/Control-Flow-Sidechannel-Mitigation")
+stats_directory = os.path.join(repo_directory, "benchmarks/out_dir/")
 
 filenames = []
 statistics = []
