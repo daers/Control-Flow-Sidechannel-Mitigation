@@ -18,6 +18,8 @@ statistics = []
 # 	    self.diff = diff
 
 class File_Stats:
+	data
+	name
 	def __init__(self, name_in, data_in):
 		name = name_in
 		data = data_in
