@@ -13,5 +13,3 @@ cd ../benchmarks
 python3 data_processing.py
 
 cd ../
-
-git checkout pass/build/
