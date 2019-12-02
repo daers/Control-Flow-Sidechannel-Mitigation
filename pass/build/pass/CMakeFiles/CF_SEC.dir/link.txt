@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -Wl,-rpath-link,  -Wl,-O3 -Wl,--gc-sections -shared  -o CF_SEC.so CMakeFiles/CF_SEC.dir/pass.cpp.o -Wl,-rpath,"\$ORIGIN/../lib" 
