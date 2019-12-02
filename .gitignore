@@ -3,13 +3,9 @@
 *.o
 pass/build/CMake*
 pass/build/cmake*
-pass/build/
 pass/build/*
 benchmarks/out_dir/*
-benchmarks/outdir/
 /pass/build/CMake*
 /pass/build/cmake*
-/pass/build/
 /pass/build/*
 /benchmarks/out_dir/*
-/benchmarks/outdir/
