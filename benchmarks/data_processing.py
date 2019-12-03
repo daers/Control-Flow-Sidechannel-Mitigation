@@ -68,8 +68,8 @@ def graph_normal(df):
     x_axis = np.arange(min(z_mean - 3*z_std, o_mean - 3*o_std), max(z_mean + 3*z_std, o_mean + 3*o_std), 0.001)
 
     plt.plot(x_axis, norm.pdf(x_axis, z_mean,z_std), 'C1', label='zero')
-    plt.plot(x_axis, norm.pdf(x_axis, z_mean,z_std), 'C2', label='one')
-    plt.savefig("save.png")
+    plt.plot(x_axis, norm.pdf(x_axis, o_mean,o_std), 'C2', label='one')
+    plt.savefig("save")
     plt.show()
     plt.close()
 
