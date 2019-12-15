@@ -1,4 +1,5 @@
 #include "llvm/Pass.h"
+#include "llvm/IR/InstrTypes.h"
 #include "llvm/IR/Function.h"
 #include "llvm/Support/raw_ostream.h"
 #include "llvm/IR/LegacyPassManager.h"
@@ -48,7 +49,6 @@ namespace {
                 BasicBlock* notTaken = *(++(pred_begin(bb)));
                 if (taken->getSinglePredecessor() == notTaken->getSinglePredecessor()){
                     ControlDependentBlocks found(taken, notTaken);
-                    errs() << "FOUND CONTROL DEPENDENT BLOCKS\n";
                     return found;
                 }
             }
@@ -89,56 +89,54 @@ namespace {
     bool moveRDTSCToBlockTerminator(BasicBlock* loopBody) {
     	for (auto it = loopBody->begin(); it != loopBody->end(); ++it) {
 		if (isa<CallInst>(*it)) {
-			errs() << "call inst: " << *it << "\n";
 			for (int i = 0; i < 5; ++i) {
 				moveInstToBottomOfBB(loopBody, *it++);
 			}
-			errs() << "moved call instruction\n";
 			errs() << *loopBody << "\n";
 			return true;	
 		}
 	}
-	
 	errs() << "did NOT move call instruction\n";
 	return false;
+    }
+
+    void findBrPredicateInst(BasicBlock* loopBody) {
+    	for (auto it = loopBody->begin(); it != loopBody->end(); ++it) {
+        	if (isa<ICmpInst>(*it)) {
+               		errs() << "ICmp inst: " << *it << "\n";
+        		auto* binOp(BinaryOperator::CreateNot(dyn_cast<Value>(&*it)));
+			errs() << "binOp: " << *binOp << "\n";	
+			binOp->insertBefore(loopBody->getTerminator());
+		}
+        }
     }
 
     bool hoistInstr(Loop* L, ControlDependentBlocks& change){
         //first, hoist the instructions in the first basic BLOCKS
         errs() << *change.taken << "\n";
         BasicBlock* preIf = change.taken->getSinglePredecessor();
-        errs() << "FUCK IT 1\n";
 
 
         auto taken = createInstList(change.taken);
         auto notTaken = createInstList(change.notTaken);
 
-        for(Instruction* I : taken){
-            errs() << I << " FUCK IT 2\n";
+        for (Instruction* I : taken) {
             if (I->getOpcode() != Instruction::Store){
-                errs() << "FUCK IT 3\n";
                 hoistOut(L, *I, preIf);
-                errs() << "FUCK IT 4\n";
-            }
-            else{
+            } else {
                 break;
             }
-            errs() << "FUCK IT 5\n";
         }
 
-        for(Instruction* I : notTaken){
-            errs() << I << " FUCK IT 2\n";
-            if (I->getOpcode() != Instruction::Store){
-                errs() << "FUCK IT 3\n";
+        for (Instruction* I : notTaken) {
+            if (I->getOpcode() != Instruction::Store) {
                 hoistOut(L, *I, preIf);
-                errs() << "FUCK IT 4\n";
-            }
-            else{
+            } else {
                 break;
             }
-            errs() << "FUCK IT 5\n";
         }
 	moveRDTSCToBlockTerminator(preIf);
+	errs() << "final:\n" << *preIf << "\n";
 	return true;
     }
 
@@ -164,7 +162,12 @@ namespace {
   ControlDependentBlocks change = detectIfStatement(L);
   if (change.taken != nullptr){
       //we have some bb's to change!
-      return hoistInstr(L, change);
+      auto result = hoistInstr(L, change);
+      errs() << "Loop blocks after pass:\n";
+      for (auto* bb : L->getBlocks()) {
+	      errs() << *bb << "\n";
+      }
+      return result;
   }
   return false;
 }
